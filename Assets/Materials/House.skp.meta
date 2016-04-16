@@ -1,0 +1,328 @@
+fileFormatVersion: 2
+guid: a9ecdcf4f3608c74293317b14aef8efd
+timeCreated: 1460748308
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f0000007000000071000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 6faa384a32905e492f006322852b7fab
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 1.1997107, y: 1.8114874, z: -3.705631}
+      lookAt: {x: 5.4666653, y: 2.7423384, z: 3.0540175}
+      up: {x: -0.061741073, y: 0.99328816, z: -0.09780933}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: DoorKnob
+    100002: DoorKnob 1
+    100004: DoorKnob 10
+    100006: DoorKnob 11
+    100008: DoorKnob 12
+    100010: DoorKnob 13
+    100012: DoorKnob 14
+    100014: DoorKnob 15
+    100016: DoorKnob 16
+    100018: DoorKnob 17
+    100020: DoorKnob 18
+    100022: DoorKnob 19
+    100024: DoorKnob 2
+    100026: DoorKnob 20
+    100028: DoorKnob 21
+    100030: DoorKnob 22
+    100032: DoorKnob 23
+    100034: DoorKnob 24
+    100036: DoorKnob 25
+    100038: DoorKnob 26
+    100040: DoorKnob 27
+    100042: DoorKnob 28
+    100044: DoorKnob 29
+    100046: DoorKnob 3
+    100048: DoorKnob 30
+    100050: DoorKnob 31
+    100052: DoorKnob 32
+    100054: DoorKnob 33
+    100056: DoorKnob 34
+    100058: DoorKnob 35
+    100060: DoorKnob 36
+    100062: DoorKnob 37
+    100064: DoorKnob 38
+    100066: DoorKnob 39
+    100068: DoorKnob 4
+    100070: DoorKnob 40
+    100072: DoorKnob 41
+    100074: DoorKnob 42
+    100076: DoorKnob 43
+    100078: DoorKnob 44
+    100080: DoorKnob 45
+    100082: DoorKnob 46
+    100084: DoorKnob 47
+    100086: DoorKnob 48
+    100088: DoorKnob 49
+    100090: DoorKnob 5
+    100092: DoorKnob 50
+    100094: DoorKnob 51
+    100096: DoorKnob 52
+    100098: DoorKnob 53
+    100100: DoorKnob 54
+    100102: DoorKnob 55
+    100104: DoorKnob 6
+    100106: DoorKnob 7
+    100108: DoorKnob 8
+    100110: DoorKnob 9
+    100112: //RootNode
+    100114: House_MeshPart0
+    100116: House_MeshPart1
+    400000: DoorKnob
+    400002: DoorKnob 1
+    400004: DoorKnob 10
+    400006: DoorKnob 11
+    400008: DoorKnob 12
+    400010: DoorKnob 13
+    400012: DoorKnob 14
+    400014: DoorKnob 15
+    400016: DoorKnob 16
+    400018: DoorKnob 17
+    400020: DoorKnob 18
+    400022: DoorKnob 19
+    400024: DoorKnob 2
+    400026: DoorKnob 20
+    400028: DoorKnob 21
+    400030: DoorKnob 22
+    400032: DoorKnob 23
+    400034: DoorKnob 24
+    400036: DoorKnob 25
+    400038: DoorKnob 26
+    400040: DoorKnob 27
+    400042: DoorKnob 28
+    400044: DoorKnob 29
+    400046: DoorKnob 3
+    400048: DoorKnob 30
+    400050: DoorKnob 31
+    400052: DoorKnob 32
+    400054: DoorKnob 33
+    400056: DoorKnob 34
+    400058: DoorKnob 35
+    400060: DoorKnob 36
+    400062: DoorKnob 37
+    400064: DoorKnob 38
+    400066: DoorKnob 39
+    400068: DoorKnob 4
+    400070: DoorKnob 40
+    400072: DoorKnob 41
+    400074: DoorKnob 42
+    400076: DoorKnob 43
+    400078: DoorKnob 44
+    400080: DoorKnob 45
+    400082: DoorKnob 46
+    400084: DoorKnob 47
+    400086: DoorKnob 48
+    400088: DoorKnob 49
+    400090: DoorKnob 5
+    400092: DoorKnob 50
+    400094: DoorKnob 51
+    400096: DoorKnob 52
+    400098: DoorKnob 53
+    400100: DoorKnob 54
+    400102: DoorKnob 55
+    400104: DoorKnob 6
+    400106: DoorKnob 7
+    400108: DoorKnob 8
+    400110: DoorKnob 9
+    400112: //RootNode
+    400114: House_MeshPart0
+    400116: House_MeshPart1
+    2300000: DoorKnob
+    2300002: DoorKnob 1
+    2300004: DoorKnob 10
+    2300006: DoorKnob 11
+    2300008: DoorKnob 12
+    2300010: DoorKnob 13
+    2300012: DoorKnob 14
+    2300014: DoorKnob 15
+    2300016: DoorKnob 16
+    2300018: DoorKnob 17
+    2300020: DoorKnob 18
+    2300022: DoorKnob 19
+    2300024: DoorKnob 2
+    2300026: DoorKnob 20
+    2300028: DoorKnob 21
+    2300030: DoorKnob 22
+    2300032: DoorKnob 23
+    2300034: DoorKnob 24
+    2300036: DoorKnob 25
+    2300038: DoorKnob 26
+    2300040: DoorKnob 27
+    2300042: DoorKnob 28
+    2300044: DoorKnob 29
+    2300046: DoorKnob 3
+    2300048: DoorKnob 30
+    2300050: DoorKnob 31
+    2300052: DoorKnob 32
+    2300054: DoorKnob 33
+    2300056: DoorKnob 34
+    2300058: DoorKnob 35
+    2300060: DoorKnob 36
+    2300062: DoorKnob 37
+    2300064: DoorKnob 38
+    2300066: DoorKnob 39
+    2300068: DoorKnob 4
+    2300070: DoorKnob 40
+    2300072: DoorKnob 41
+    2300074: DoorKnob 42
+    2300076: DoorKnob 43
+    2300078: DoorKnob 44
+    2300080: DoorKnob 45
+    2300082: DoorKnob 46
+    2300084: DoorKnob 47
+    2300086: DoorKnob 48
+    2300088: DoorKnob 49
+    2300090: DoorKnob 5
+    2300092: DoorKnob 50
+    2300094: DoorKnob 51
+    2300096: DoorKnob 52
+    2300098: DoorKnob 53
+    2300100: DoorKnob 54
+    2300102: DoorKnob 55
+    2300104: DoorKnob 6
+    2300106: DoorKnob 7
+    2300108: DoorKnob 8
+    2300110: DoorKnob 9
+    2300112: House_MeshPart0
+    2300114: House_MeshPart1
+    3300000: DoorKnob
+    3300002: DoorKnob 1
+    3300004: DoorKnob 10
+    3300006: DoorKnob 11
+    3300008: DoorKnob 12
+    3300010: DoorKnob 13
+    3300012: DoorKnob 14
+    3300014: DoorKnob 15
+    3300016: DoorKnob 16
+    3300018: DoorKnob 17
+    3300020: DoorKnob 18
+    3300022: DoorKnob 19
+    3300024: DoorKnob 2
+    3300026: DoorKnob 20
+    3300028: DoorKnob 21
+    3300030: DoorKnob 22
+    3300032: DoorKnob 23
+    3300034: DoorKnob 24
+    3300036: DoorKnob 25
+    3300038: DoorKnob 26
+    3300040: DoorKnob 27
+    3300042: DoorKnob 28
+    3300044: DoorKnob 29
+    3300046: DoorKnob 3
+    3300048: DoorKnob 30
+    3300050: DoorKnob 31
+    3300052: DoorKnob 32
+    3300054: DoorKnob 33
+    3300056: DoorKnob 34
+    3300058: DoorKnob 35
+    3300060: DoorKnob 36
+    3300062: DoorKnob 37
+    3300064: DoorKnob 38
+    3300066: DoorKnob 39
+    3300068: DoorKnob 4
+    3300070: DoorKnob 40
+    3300072: DoorKnob 41
+    3300074: DoorKnob 42
+    3300076: DoorKnob 43
+    3300078: DoorKnob 44
+    3300080: DoorKnob 45
+    3300082: DoorKnob 46
+    3300084: DoorKnob 47
+    3300086: DoorKnob 48
+    3300088: DoorKnob 49
+    3300090: DoorKnob 5
+    3300092: DoorKnob 50
+    3300094: DoorKnob 51
+    3300096: DoorKnob 52
+    3300098: DoorKnob 53
+    3300100: DoorKnob 54
+    3300102: DoorKnob 55
+    3300104: DoorKnob 6
+    3300106: DoorKnob 7
+    3300108: DoorKnob 8
+    3300110: DoorKnob 9
+    3300112: House_MeshPart0
+    3300114: House_MeshPart1
+    4300000: Mesh House_MeshPart0
+    4300002: Mesh House_MeshPart1
+    4300004: Mesh DoorKnob
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

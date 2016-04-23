@@ -5,17 +5,12 @@ using System.Collections;
 public class IntroScript : MonoBehaviour {
 
 	public Autowalk walkingScript;
-	public PanelDispenserHandler panelDispenserScript;
 
 	public Text introText;
 	public Text leftStartText;
 	public Text rightStartText;
 
 	public Text continueText;
-
-	public GameObject smallCoin;
-	public GameObject smallCoinCluster;
-	public GameObject coinCluster;
 
 	private string[] textObjects;
 
@@ -36,7 +31,6 @@ public class IntroScript : MonoBehaviour {
 		};
 			
 		walkingScript.enabled = false;
-		panelDispenserScript.enabled = false;
 	}
 	
 	// Update is called once per frame
@@ -54,7 +48,6 @@ public class IntroScript : MonoBehaviour {
 				rightStartText.enabled = true;
 
 				walkingScript.enabled = true;
-				panelDispenserScript.enabled = true;
 			}
 		}
 	}

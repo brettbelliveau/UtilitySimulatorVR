@@ -13,7 +13,7 @@ namespace VRStandardAssets.Utils
 	public class SelectionSlider : MonoBehaviour
     {
 		public event Action OnBarFilled;                                    // This event is triggered when the bar finishes filling.
-
+        [SerializeField] private GameObject FPSController;
 
 		[SerializeField] private float m_Duration = 2f;                     // The length of time it takes for the bar to fill.
 		[SerializeField] private AudioSource m_Audio;                       // Reference to the audio source that will play effects when the user looks at it and when it fills.
@@ -29,22 +29,22 @@ namespace VRStandardAssets.Utils
 		[SerializeField] private Collider m_Collider;                       // Optional reference to the Collider used to detect the user's gaze, turned off when the UIFader is not visible.
 		[SerializeField] private bool m_DisableOnBarFill;                   // Whether the bar should stop reacting once it's been filled (for single use bars).
 		[SerializeField] private bool m_DisappearOnBarFill;                 // Whether the bar should disappear instantly once it's been filled.
+        [SerializeField] private bool m_DisableOnClick;                     // Whether the bar should disable after the first click.
+        [SerializeField] private bool m_LockMovementOnClick;                 // Stop movement after button is clicked and until bar is filled.
 
-        [SerializeField] private bool m_IsComparorObject;
-		[SerializeField] private MoneyDispenser money;
-		[SerializeField] private PanelDispenserHandler dispenserHandler;
+        /* Fields used for money dispenser */
 
-		[SerializeField] private Autowalk walkingScript;
+        //[SerializeField] private bool m_IsComparorObject;
+        //[SerializeField] private MoneyDispenser money;
+        //[SerializeField] private PanelDispenserHandler dispenserHandler;
 
-
+        [SerializeField] private Autowalk walkingScript;
+        
 		private bool m_BarFilled;                                           // Whether the bar is currently filled.
 		private bool m_GazeOver;                                            // Whether the user is currently looking at the bar.
 		private float m_Timer;                                              // Used to determine how much of the bar should be filled.
 		private Coroutine m_FillBarRoutine;                                 // Reference to the coroutine that controls the bar filling up, used to stop it if required.
-
-
 		private const string k_SliderMaterialPropertyName = "_SliderValue"; // The name of the property on the SlidingUV shader that needs to be changed in order for it to fill.
-
 
 		private void OnEnable ()
 		{
@@ -78,8 +78,12 @@ namespace VRStandardAssets.Utils
 
 		public IEnumerator WaitForBarToFill ()
 		{
-			// If the bar should disappear when it's filled, it needs to be visible now.
-			if(m_BarCanvas && m_DisappearOnBarFill)
+            // Disable the bar so user cannot repeatedly press it
+//            if (m_DisableOnClick)
+//                enabled = false;
+
+            // If the bar should disappear when it's filled, it needs to be visible now.
+            if (m_BarCanvas && m_DisappearOnBarFill)
 				m_BarCanvas.SetActive(true);
 
 			// Currently the bar is unfilled.
@@ -92,6 +96,7 @@ namespace VRStandardAssets.Utils
 			// Keep coming back each frame until the bar is filled.
 			while (!m_BarFilled)
 			{
+                //TODO: Insert lock position behavior
 				yield return null;
 			}
 
@@ -103,8 +108,18 @@ namespace VRStandardAssets.Utils
 
 		private IEnumerator FillBar ()
 		{
-			// When the bar starts to fill, reset the timer.
-			m_Timer = 0f;
+            // Disable the bar so user cannot repeatedly press it
+//            if (m_DisableOnClick)
+//                enabled = false;
+
+            // Disable movement until bar has been filled
+            if (m_LockMovementOnClick) { 
+                FPSController.GetComponent<Rigidbody>().useGravity = false;
+                FPSController.GetComponent<Rigidbody>().isKinematic = false;
+            }
+
+            // When the bar starts to fill, reset the timer.
+            m_Timer = 0f;
 
 			// The amount of time it takes to fill is either the duration set in the inspector, or the duration of the radial.
 			float fillTime = m_SelectionRadial != null ? m_SelectionRadial.SelectionDuration : m_Duration;
@@ -112,8 +127,8 @@ namespace VRStandardAssets.Utils
 			// Until the timer is greater than the fill time...
 			while (m_Timer < fillTime)
 			{
-				// ... add to the timer the difference between frames.
-				m_Timer += Time.deltaTime;
+                // ... add to the timer the difference between frames.
+                m_Timer += Time.deltaTime;
 
 				// Set the value of the slider or the UV based on the normalised time.
 				SetSliderValue(m_Timer / fillTime);
@@ -135,10 +150,9 @@ namespace VRStandardAssets.Utils
 			m_Audio.clip = m_OnFilledClip;
 			m_Audio.Play();
 
-			// If the bar should be disabled once it is filled, do so now.
-			if (m_DisableOnBarFill)
-				enabled = false;
-		}
+            FPSController.GetComponent<Rigidbody>().useGravity = true;
+            FPSController.GetComponent<Rigidbody>().isKinematic = true;       
+        }
 
 
 		private void SetSliderValue (float sliderValue)
@@ -156,9 +170,9 @@ namespace VRStandardAssets.Utils
 		private void HandleDown ()
 		{
 			// If the user is looking at the bar start the FillBar coroutine and store a reference to it.
-			if (m_GazeOver) {
-				// m_FillBarRoutine = StartCoroutine(FillBar());
-				ToggleSelection();
+			if (m_GazeOver && m_Slider.enabled) {
+				m_FillBarRoutine = StartCoroutine(FillBar());
+				// ToggleSelection();
 			}
 		}
 
@@ -189,6 +203,8 @@ namespace VRStandardAssets.Utils
 			}
 		}
 
+        /* Below functions were built for toggle functionality, left for reference */
+        /*
 		private void ToggleSelection() {
 			Debug.Log("Toggle Button");
 
@@ -215,5 +231,6 @@ namespace VRStandardAssets.Utils
 				m_Slider.value = m_Slider.maxValue;
 			}
 		}
-	}
+        */
+    }
 }

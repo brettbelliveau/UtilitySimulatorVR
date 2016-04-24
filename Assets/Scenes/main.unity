@@ -876,6 +876,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_DisableOnClick: 0
   m_LockMovementOnClick: 1
+  text: {fileID: 1377902337}
   walkingScript: {fileID: 0}
 --- !u!65 &167094323
 BoxCollider:
@@ -888,8 +889,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 20, y: 20, z: 0.01}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 30, y: 14, z: 0.01}
+  m_Center: {x: 0.5, y: 0, z: 0}
 --- !u!114 &167094324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -940,7 +941,6 @@ Canvas:
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -4359,7 +4359,6 @@ Canvas:
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -4539,6 +4538,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_DisableOnClick: 0
   m_LockMovementOnClick: 1
+  text: {fileID: 1302466915}
   walkingScript: {fileID: 0}
 --- !u!65 &1099906449
 BoxCollider:
@@ -4551,8 +4551,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 20, y: 20, z: 0.01}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 30, y: 14, z: 0.01}
+  m_Center: {x: 0.5, y: 0, z: 0}
 --- !u!114 &1099906450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4603,7 +4603,6 @@ Canvas:
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -4994,6 +4993,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_DisableOnClick: 0
   m_LockMovementOnClick: 0
+  text: {fileID: 0}
   walkingScript: {fileID: 0}
 --- !u!65 &1195329368
 BoxCollider:
@@ -5058,7 +5058,6 @@ Canvas:
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -5506,7 +5505,7 @@ RectTransform:
   m_GameObject: {fileID: 1296312537}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.675, y: 3.355, z: 1}
+  m_LocalScale: {x: 1, y: 2.4, z: 1}
   m_Children: []
   m_Father: {fileID: 271581468}
   m_RootOrder: 0
@@ -5620,11 +5619,9 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: '
 
-    Press A
+    Press A To
 
-    to Start
-
-    Activity'
+    Start Activity'
 --- !u!222 &1302466918
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5900,11 +5897,9 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: '
 
-    Press A
+    Press A To
 
-    to Start
-
-    Activity'
+    Start Activity'
 --- !u!222 &1377902340
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6206,6 +6201,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_DisableOnClick: 0
   m_LockMovementOnClick: 0
+  text: {fileID: 0}
   walkingScript: {fileID: 0}
 --- !u!65 &1394214889
 BoxCollider:
@@ -6270,7 +6266,6 @@ Canvas:
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -6689,7 +6684,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1479089657}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1224362952}
@@ -6942,7 +6937,7 @@ RectTransform:
   m_GameObject: {fileID: 1599162578}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.675, y: 3.355, z: 1}
+  m_LocalScale: {x: 1, y: 2.4, z: 1}
   m_Children: []
   m_Father: {fileID: 97688879}
   m_RootOrder: 0
@@ -7487,6 +7482,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_DisableOnClick: 0
   m_LockMovementOnClick: 0
+  text: {fileID: 0}
   walkingScript: {fileID: 0}
 --- !u!65 &1661849990
 BoxCollider:
@@ -7551,7 +7547,6 @@ Canvas:
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -7579,7 +7574,7 @@ RectTransform:
   m_GameObject: {fileID: 1667560095}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.675, y: 3.355, z: 1}
+  m_LocalScale: {x: 1, y: 2.4, z: 1}
   m_Children:
   - {fileID: 921493575}
   m_Father: {fileID: 271581468}
@@ -7741,7 +7736,7 @@ RectTransform:
   m_GameObject: {fileID: 1683611821}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.675, y: 3.355, z: 1}
+  m_LocalScale: {x: 1, y: 2.4, z: 1}
   m_Children:
   - {fileID: 2040444600}
   m_Father: {fileID: 97688879}
@@ -8749,7 +8744,6 @@ Canvas:
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
   m_SortingLayerID: -1915606183
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -9624,6 +9618,7 @@ MonoBehaviour:
   m_DisappearOnBarFill: 0
   m_DisableOnClick: 0
   m_LockMovementOnClick: 0
+  text: {fileID: 0}
   walkingScript: {fileID: 0}
 --- !u!65 &2093480743
 BoxCollider:
@@ -9688,7 +9683,6 @@ Canvas:
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0

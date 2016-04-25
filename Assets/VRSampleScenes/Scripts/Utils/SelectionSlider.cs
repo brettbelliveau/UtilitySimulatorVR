@@ -136,7 +136,10 @@ namespace VRStandardAssets.Utils
             if (m_LockMovementOnClick) {
                 fps.m_WalkSpeed = fps.m_RunSpeed = 0;
             }
-            
+
+            m_Audio.clip = m_OnFilledClip;
+            m_Audio.Play();
+
             // When the bar starts to fill, reset the timer.
             m_Timer = 0f;
             var newText = "\n Activity \n Progress: ";

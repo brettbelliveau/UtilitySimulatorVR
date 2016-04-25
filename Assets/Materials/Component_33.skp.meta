@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: b3dc57a21a282c748a31040d7a330bcd
+timeCreated: 1461603017
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001500000016000000170000001800000019000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 6ce023b725b7ae88df1ba8bcff1e1b28
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 1.7787796, y: 1.2896469, z: 0.06926043}
+      lookAt: {x: 0.14445373, y: 0.54776376, z: 0.17776386}
+      up: {x: -0.4116852, y: 0.9109162, z: 0.02733192}
+      fov: 35.546143
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 100% of Dust Mit#1
+    100002: 15.0
+    100004: 99.98% Ragweed P
+    100006: < BRUSHED EDGE C#1
+    100008: ALLERGEN FILTRAT#2
+    100010: BRUSHED EDGE CLE#2
+    100012: Cleaning Tools#1
+    100014: //RootNode
+    100016: FUTURA#3
+    100018: Group 12
+    100020: Group 14
+    100022: Group 2
+    100024: HOOVER#10
+    400000: 100% of Dust Mit#1
+    400002: 15.0
+    400004: 99.98% Ragweed P
+    400006: < BRUSHED EDGE C#1
+    400008: ALLERGEN FILTRAT#2
+    400010: BRUSHED EDGE CLE#2
+    400012: Cleaning Tools#1
+    400014: //RootNode
+    400016: FUTURA#3
+    400018: Group 12
+    400020: Group 14
+    400022: Group 2
+    400024: HOOVER#10
+    2300000: 100% of Dust Mit#1
+    2300002: 15.0
+    2300004: 99.98% Ragweed P
+    2300006: < BRUSHED EDGE C#1
+    2300008: ALLERGEN FILTRAT#2
+    2300010: BRUSHED EDGE CLE#2
+    2300012: Cleaning Tools#1
+    2300014: //RootNode
+    2300016: FUTURA#3
+    2300018: Group 12
+    2300020: Group 14
+    2300022: Group 2
+    2300024: HOOVER#10
+    3300000: 100% of Dust Mit#1
+    3300002: 15.0
+    3300004: 99.98% Ragweed P
+    3300006: < BRUSHED EDGE C#1
+    3300008: ALLERGEN FILTRAT#2
+    3300010: BRUSHED EDGE CLE#2
+    3300012: Cleaning Tools#1
+    3300014: //RootNode
+    3300016: FUTURA#3
+    3300018: Group 12
+    3300020: Group 14
+    3300022: Group 2
+    3300024: HOOVER#10
+    4300000: Mesh Component#33
+    4300002: Mesh Group 2
+    4300004: Mesh FUTURA#3
+    4300006: Mesh 100% of Dust Mit#1
+    4300008: Mesh ALLERGEN FILTRAT#2
+    4300010: Mesh 99.98% Ragweed P
+    4300012: Mesh Group 12
+    4300014: Mesh Group 14
+    4300016: Mesh < BRUSHED EDGE C#1
+    4300018: Mesh 15.0
+    4300020: Mesh BRUSHED EDGE CLE#2
+    4300022: Mesh HOOVER#10
+    4300024: Mesh Cleaning Tools#1
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

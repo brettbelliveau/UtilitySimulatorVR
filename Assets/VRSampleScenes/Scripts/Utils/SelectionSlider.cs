@@ -2,6 +2,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityStandardAssets.Characters.FirstPerson;
 
 namespace VRStandardAssets.Utils
 {
@@ -41,6 +42,7 @@ namespace VRStandardAssets.Utils
 
         [SerializeField] private Autowalk walkingScript;
 
+        FirstPersonController fps;
         private bool inProgress;                                            // Whether the fill is currently in progress.
 		private bool m_BarFilled;                                           // Whether the bar is currently filled.
 		private bool m_GazeOver;                                            // Whether the user is currently looking at the bar.
@@ -48,11 +50,17 @@ namespace VRStandardAssets.Utils
 		private Coroutine m_FillBarRoutine;                                 // Reference to the coroutine that controls the bar filling up, used to stop it if required.
 		private const string k_SliderMaterialPropertyName = "_SliderValue"; // The name of the property on the SlidingUV shader that needs to be changed in order for it to fill.
         private int fontSize;
+        private float walkSpeed;
+        private float runSpeed;
 
         private void Start ()
         {
             fontSize = text.GetComponent<Text>().fontSize;
             inProgress = false;
+
+            fps = FPSController.GetComponent<FirstPersonController>();
+            walkSpeed = fps.m_WalkSpeed;
+            runSpeed = fps.m_RunSpeed;
         }
 
 		private void OnEnable ()
@@ -88,6 +96,7 @@ namespace VRStandardAssets.Utils
 		public IEnumerator WaitForBarToFill ()
 		{
             // Disable the bar so user cannot repeatedly press it
+            // This has been done with the inProgress variable
 //            if (m_DisableOnClick)
 //                enabled = false;
 
@@ -105,7 +114,7 @@ namespace VRStandardAssets.Utils
 			// Keep coming back each frame until the bar is filled.
 			while (!m_BarFilled)
 			{
-                //TODO: Insert lock position behavior
+                //fps.m_WalkSpeed = 0;
 				yield return null;
 			}
 
@@ -124,10 +133,12 @@ namespace VRStandardAssets.Utils
             }
 
             // Disable movement until bar has been filled
-            if (m_LockMovementOnClick) { 
-                //FPSController.GetComponent<Rigidbody>().useGravity = false;
-                //FPSController.GetComponent<Rigidbody>().isKinematic = false;
+            if (m_LockMovementOnClick) {
+                fps.m_WalkSpeed = fps.m_RunSpeed = 0;
             }
+
+            m_Audio.clip = m_OnFilledClip;
+            m_Audio.Play();
 
             // When the bar starts to fill, reset the timer.
             m_Timer = 0f;
@@ -166,8 +177,9 @@ namespace VRStandardAssets.Utils
             
             text.GetComponent<Text>().text = "\n Activity \n Complete";
 
-            //            FPSController.GetComponent<Rigidbody>().useGravity = true;
-            //            FPSController.GetComponent<Rigidbody>().isKinematic = true;       
+            //Set speeds back to normal
+            fps.m_WalkSpeed = walkSpeed;
+            fps.m_RunSpeed = runSpeed;      
         }
 
 

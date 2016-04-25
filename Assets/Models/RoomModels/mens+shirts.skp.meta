@@ -1,23 +1,23 @@
 fileFormatVersion: 2
-guid: ec506e580a65146efa068cd4e77df1c0
-timeCreated: 1461621194
+guid: 3f8d18c97af0647b2add1fec200fcd78
+timeCreated: 1461622014
 licenseType: Free
 SketchUpImporter:
   generateBackFace: 0
   mergeCoplanarFaces: 0
-  selectedNodes: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c000000
   assetHash:
     serializedVersion: 2
-    Hash: cac9536b194bff6c22dd3262f196205f
+    Hash: 825421a02b92dca39e764c9e1fc356ea
   longitude: -105.283
   latitude: 40.017
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: 5.3002105, y: 1.4225777, z: 1.2617304}
-      lookAt: {x: -19.13528, y: -0.8286426, z: 1.4020102}
-      up: {x: -0.0917376, y: 0.9957831, z: 0.0005266493}
+      position: {x: 1.3010991, y: 0.879479, z: -0.35730463}
+      lookAt: {x: 8.3641615, y: -18.077892, z: 13.531974}
+      up: {x: 0.35017434, y: 0.6349798, z: 0.68860626}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -26,29 +26,37 @@ SketchUpImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Group 3
-    100004: Group 4
-    100006: Group 6
-    100008: Group 8
-    100010: "ZISS420DRSS GE Monogram\xAE 42\" Bu_L__ilt-In Side-by-Side Refrigerator"
+    100002: Component#1
+    100004: Component#11
+    100006: Component#3
+    100008: Component#5
+    100010: Component#7
+    100012: Component#9
     400000: //RootNode
-    400002: Group 3
-    400004: Group 4
-    400006: Group 6
-    400008: Group 8
-    400010: "ZISS420DRSS GE Monogram\xAE 42\" Bu_L__ilt-In Side-by-Side Refrigerator"
-    2300000: Group 4
-    2300002: Group 6
-    2300004: Group 8
-    2300006: "ZISS420DRSS GE Monogram\xAE 42\" Bu_L__ilt-In Side-by-Side Refrigerator"
-    3300000: Group 4
-    3300002: Group 6
-    3300004: Group 8
-    3300006: "ZISS420DRSS GE Monogram\xAE 42\" Bu_L__ilt-In Side-by-Side Refrigerator"
-    4300000: "Mesh ZISS420DRSS GE Monogram\xAE 42\" Bu_L__ilt-In Side-by-Side Refrigerator"
-    4300002: Mesh Group 4
-    4300004: Mesh Group 6
-    4300006: Mesh Group 8
+    400002: Component#1
+    400004: Component#11
+    400006: Component#3
+    400008: Component#5
+    400010: Component#7
+    400012: Component#9
+    2300000: Component#1
+    2300002: Component#11
+    2300004: Component#3
+    2300006: Component#5
+    2300008: Component#7
+    2300010: Component#9
+    3300000: Component#1
+    3300002: Component#11
+    3300004: Component#3
+    3300006: Component#5
+    3300008: Component#7
+    3300010: Component#9
+    4300000: Mesh Component#1
+    4300002: Mesh Component#3
+    4300004: Mesh Component#5
+    4300006: Mesh Component#7
+    4300008: Mesh Component#9
+    4300010: Mesh Component#11
   materials:
     importMaterials: 1
     materialName: 2

@@ -1,0 +1,789 @@
+fileFormatVersion: 2
+guid: 7d58f94360855423bb5a7ea4e56d2b3b
+timeCreated: 1461618392
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f0100002001000021010000220100002301000024010000250100002601000027010000
+  assetHash:
+    serializedVersion: 2
+    Hash: ccb4d6abd723346849c399c3b7c34730
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 6.9473004, y: 1.9189467, z: 5.780229}
+      lookAt: {x: -0.3770664, y: -0.56816065, z: -1.0816736}
+      up: {x: -0.17553182, y: 0.9706417, z: -0.16444863}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: book#3
+    100002: book#3 1
+    100004: book#3 2
+    100006: book#3 3
+    100008: book#3 4
+    100010: book#3 5
+    100012: book#3 6
+    100014: book#3 7
+    100016: Books5
+    100018: Chair_Arm_Modern
+    100020: CHANNEL
+    100022: Clock
+    100024: Clock_Grandfather
+    100026: Clock_Hand
+    100028: Clock_Hand 1
+    100030: COMPACT
+    100032: Component#1
+    100034: Component#1 1
+    100036: Component#1 2
+    100038: Component#1 3
+    100040: Component#2
+    100042: Component#2 1
+    100044: Component#5
+    100046: Corners_Clock
+    100048: Corners_Clock 1
+    100050: Corners_Clock 2
+    100052: Corners_Clock 3
+    100054: Corners_Glass
+    100056: Corners_Glass 1
+    100058: Corners_Glass 2
+    100060: Corners_Glass 3
+    100062: Couch_Rectangular
+    100064: cushion half
+    100066: cushion half 1
+    100068: cushion half 10
+    100070: cushion half 11
+    100072: cushion half 2
+    100074: cushion half 3
+    100076: cushion half 4
+    100078: cushion half 5
+    100080: cushion half 6
+    100082: cushion half 7
+    100084: cushion half 8
+    100086: cushion half 9
+    100088: DIGITAL AUDIO
+    100090: disc
+    100092: Dishes_Bottle_Wine
+    100094: Dishes_Glass_Wine
+    100096: Double feature
+    100098: dts
+    100100: dvd
+    100102: dvd case black
+    100104: dvd case#1
+    100106: dvd case#10
+    100108: dvd case#11
+    100110: dvd case#12
+    100112: dvd case#13
+    100114: dvd case#14
+    100116: dvd case#15
+    100118: dvd case#16
+    100120: dvd case#17
+    100122: dvd case#18
+    100124: dvd case#19
+    100126: dvd case#2
+    100128: dvd case#20
+    100130: dvd case#21
+    100132: dvd case#23
+    100134: dvd case#24
+    100136: dvd case#25
+    100138: dvd case#26
+    100140: dvd case#27
+    100142: dvd case#28
+    100144: dvd case#29
+    100146: dvd case#3
+    100148: dvd case#30
+    100150: dvd case#31
+    100152: dvd case#32
+    100154: dvd case#33
+    100156: dvd case#34
+    100158: dvd case#35
+    100160: dvd case#36
+    100162: dvd case#37
+    100164: dvd case#38
+    100166: dvd case#39
+    100168: dvd case#4
+    100170: dvd case#40
+    100172: dvd case#41
+    100174: dvd case#42
+    100176: dvd case#43
+    100178: dvd case#44
+    100180: dvd case#45
+    100182: dvd case#46
+    100184: dvd case#47
+    100186: dvd case#48
+    100188: dvd case#49
+    100190: dvd case#5
+    100192: dvd case#6
+    100194: dvd case#7
+    100196: dvd case#8
+    100198: dvd case#9
+    100200: DVD Collection
+    100202: DVD#1
+    100204: DVD#2
+    100206: Group 170
+    100208: Group 175
+    100210: Group 180
+    100212: Group 185
+    100214: Group 190
+    100216: Group 195
+    100218: Group 246
+    100220: Group 248
+    100222: Group 3
+    100224: Group#9
+    100226: Group#9 1
+    100228: Image 2
+    100230: Image 7
+    100232: Image 8
+    100234: JVC#6
+    100236: JVC#6 1
+    100238: Knob1
+    100240: Knob1 1
+    100242: Knob1 10
+    100244: Knob1 11
+    100246: Knob1 2
+    100248: Knob1 3
+    100250: Knob1 4
+    100252: Knob1 5
+    100254: Knob1 6
+    100256: Knob1 7
+    100258: Knob1 8
+    100260: Knob1 9
+    100262: open
+    100264: open/close
+    100266: Panasasonic
+    100268: pillow
+    100270: pillow 1
+    100272: play
+    100274: POWER
+    100276: rec
+    100278: Shrek der Dritte
+    100280: side
+    100282: side 1
+    100284: side 2
+    100286: side 3
+    100288: Side Glass
+    100290: Side Glass 1
+    100292: skip
+    100294: stop
+    100296: Table_Coffee_Glass
+    100298: tv
+    100300: VCR
+    100302: VCR/DVD
+    100304: Weight
+    100306: Weight 1
+    100308: Weight 2
+    100310: Window_Casement_Wood_Double_32x36
+    100312: //RootNode
+    400000: book#3
+    400002: book#3 1
+    400004: book#3 2
+    400006: book#3 3
+    400008: book#3 4
+    400010: book#3 5
+    400012: book#3 6
+    400014: book#3 7
+    400016: Books5
+    400018: Chair_Arm_Modern
+    400020: CHANNEL
+    400022: Clock
+    400024: Clock_Grandfather
+    400026: Clock_Hand
+    400028: Clock_Hand 1
+    400030: COMPACT
+    400032: Component#1
+    400034: Component#1 1
+    400036: Component#1 2
+    400038: Component#1 3
+    400040: Component#2
+    400042: Component#2 1
+    400044: Component#5
+    400046: Corners_Clock
+    400048: Corners_Clock 1
+    400050: Corners_Clock 2
+    400052: Corners_Clock 3
+    400054: Corners_Glass
+    400056: Corners_Glass 1
+    400058: Corners_Glass 2
+    400060: Corners_Glass 3
+    400062: Couch_Rectangular
+    400064: cushion half
+    400066: cushion half 1
+    400068: cushion half 10
+    400070: cushion half 11
+    400072: cushion half 2
+    400074: cushion half 3
+    400076: cushion half 4
+    400078: cushion half 5
+    400080: cushion half 6
+    400082: cushion half 7
+    400084: cushion half 8
+    400086: cushion half 9
+    400088: DIGITAL AUDIO
+    400090: disc
+    400092: Dishes_Bottle_Wine
+    400094: Dishes_Glass_Wine
+    400096: Double feature
+    400098: dts
+    400100: dvd
+    400102: dvd case black
+    400104: dvd case#1
+    400106: dvd case#10
+    400108: dvd case#11
+    400110: dvd case#12
+    400112: dvd case#13
+    400114: dvd case#14
+    400116: dvd case#15
+    400118: dvd case#16
+    400120: dvd case#17
+    400122: dvd case#18
+    400124: dvd case#19
+    400126: dvd case#2
+    400128: dvd case#20
+    400130: dvd case#21
+    400132: dvd case#23
+    400134: dvd case#24
+    400136: dvd case#25
+    400138: dvd case#26
+    400140: dvd case#27
+    400142: dvd case#28
+    400144: dvd case#29
+    400146: dvd case#3
+    400148: dvd case#30
+    400150: dvd case#31
+    400152: dvd case#32
+    400154: dvd case#33
+    400156: dvd case#34
+    400158: dvd case#35
+    400160: dvd case#36
+    400162: dvd case#37
+    400164: dvd case#38
+    400166: dvd case#39
+    400168: dvd case#4
+    400170: dvd case#40
+    400172: dvd case#41
+    400174: dvd case#42
+    400176: dvd case#43
+    400178: dvd case#44
+    400180: dvd case#45
+    400182: dvd case#46
+    400184: dvd case#47
+    400186: dvd case#48
+    400188: dvd case#49
+    400190: dvd case#5
+    400192: dvd case#6
+    400194: dvd case#7
+    400196: dvd case#8
+    400198: dvd case#9
+    400200: DVD Collection
+    400202: DVD#1
+    400204: DVD#2
+    400206: Group 170
+    400208: Group 175
+    400210: Group 180
+    400212: Group 185
+    400214: Group 190
+    400216: Group 195
+    400218: Group 246
+    400220: Group 248
+    400222: Group 3
+    400224: Group#9
+    400226: Group#9 1
+    400228: Image 2
+    400230: Image 7
+    400232: Image 8
+    400234: JVC#6
+    400236: JVC#6 1
+    400238: Knob1
+    400240: Knob1 1
+    400242: Knob1 10
+    400244: Knob1 11
+    400246: Knob1 2
+    400248: Knob1 3
+    400250: Knob1 4
+    400252: Knob1 5
+    400254: Knob1 6
+    400256: Knob1 7
+    400258: Knob1 8
+    400260: Knob1 9
+    400262: open
+    400264: open/close
+    400266: Panasasonic
+    400268: pillow
+    400270: pillow 1
+    400272: play
+    400274: POWER
+    400276: rec
+    400278: Shrek der Dritte
+    400280: side
+    400282: side 1
+    400284: side 2
+    400286: side 3
+    400288: Side Glass
+    400290: Side Glass 1
+    400292: skip
+    400294: stop
+    400296: Table_Coffee_Glass
+    400298: tv
+    400300: VCR
+    400302: VCR/DVD
+    400304: Weight
+    400306: Weight 1
+    400308: Weight 2
+    400310: Window_Casement_Wood_Double_32x36
+    400312: //RootNode
+    2300000: book#3
+    2300002: book#3 1
+    2300004: book#3 2
+    2300006: book#3 3
+    2300008: book#3 4
+    2300010: book#3 5
+    2300012: book#3 6
+    2300014: book#3 7
+    2300016: CHANNEL
+    2300018: Clock
+    2300020: Clock_Grandfather
+    2300022: Clock_Hand
+    2300024: Clock_Hand 1
+    2300026: COMPACT
+    2300028: Component#1
+    2300030: Component#1 1
+    2300032: Component#1 2
+    2300034: Component#1 3
+    2300036: Component#2
+    2300038: Component#2 1
+    2300040: Component#5
+    2300042: Corners_Clock
+    2300044: Corners_Clock 1
+    2300046: Corners_Clock 2
+    2300048: Corners_Clock 3
+    2300050: Corners_Glass
+    2300052: Corners_Glass 1
+    2300054: Corners_Glass 2
+    2300056: Corners_Glass 3
+    2300058: Couch_Rectangular
+    2300060: cushion half
+    2300062: cushion half 1
+    2300064: cushion half 10
+    2300066: cushion half 11
+    2300068: cushion half 2
+    2300070: cushion half 3
+    2300072: cushion half 4
+    2300074: cushion half 5
+    2300076: cushion half 6
+    2300078: cushion half 7
+    2300080: cushion half 8
+    2300082: cushion half 9
+    2300084: DIGITAL AUDIO
+    2300086: disc
+    2300088: Double feature
+    2300090: dts
+    2300092: dvd
+    2300094: dvd case#1
+    2300096: dvd case#10
+    2300098: dvd case#11
+    2300100: dvd case#12
+    2300102: dvd case#13
+    2300104: dvd case#14
+    2300106: dvd case#15
+    2300108: dvd case#16
+    2300110: dvd case#17
+    2300112: dvd case#18
+    2300114: dvd case#19
+    2300116: dvd case#2
+    2300118: dvd case#20
+    2300120: dvd case#21
+    2300122: dvd case#23
+    2300124: dvd case#24
+    2300126: dvd case#25
+    2300128: dvd case#26
+    2300130: dvd case#27
+    2300132: dvd case#28
+    2300134: dvd case#29
+    2300136: dvd case#3
+    2300138: dvd case#30
+    2300140: dvd case#31
+    2300142: dvd case#32
+    2300144: dvd case#33
+    2300146: dvd case#34
+    2300148: dvd case#35
+    2300150: dvd case#36
+    2300152: dvd case#37
+    2300154: dvd case#38
+    2300156: dvd case#39
+    2300158: dvd case#4
+    2300160: dvd case#40
+    2300162: dvd case#41
+    2300164: dvd case#42
+    2300166: dvd case#43
+    2300168: dvd case#44
+    2300170: dvd case#45
+    2300172: dvd case#46
+    2300174: dvd case#47
+    2300176: dvd case#48
+    2300178: dvd case#49
+    2300180: dvd case#5
+    2300182: dvd case#6
+    2300184: dvd case#7
+    2300186: dvd case#8
+    2300188: dvd case#9
+    2300190: DVD#1
+    2300192: DVD#2
+    2300194: Group 246
+    2300196: Group 248
+    2300198: Group 3
+    2300200: Group#9
+    2300202: Group#9 1
+    2300204: Image 2
+    2300206: Image 7
+    2300208: Image 8
+    2300210: JVC#6
+    2300212: JVC#6 1
+    2300214: Knob1
+    2300216: Knob1 1
+    2300218: Knob1 10
+    2300220: Knob1 11
+    2300222: Knob1 2
+    2300224: Knob1 3
+    2300226: Knob1 4
+    2300228: Knob1 5
+    2300230: Knob1 6
+    2300232: Knob1 7
+    2300234: Knob1 8
+    2300236: Knob1 9
+    2300238: open
+    2300240: open/close
+    2300242: Panasasonic
+    2300244: play
+    2300246: POWER
+    2300248: rec
+    2300250: side
+    2300252: side 1
+    2300254: side 2
+    2300256: side 3
+    2300258: Side Glass
+    2300260: Side Glass 1
+    2300262: skip
+    2300264: stop
+    2300266: Table_Coffee_Glass
+    2300268: tv
+    2300270: VCR
+    2300272: VCR/DVD
+    2300274: Weight
+    2300276: Weight 1
+    2300278: Weight 2
+    2300280: Window_Casement_Wood_Double_32x36
+    2300282: //RootNode
+    3300000: book#3
+    3300002: book#3 1
+    3300004: book#3 2
+    3300006: book#3 3
+    3300008: book#3 4
+    3300010: book#3 5
+    3300012: book#3 6
+    3300014: book#3 7
+    3300016: CHANNEL
+    3300018: Clock
+    3300020: Clock_Grandfather
+    3300022: Clock_Hand
+    3300024: Clock_Hand 1
+    3300026: COMPACT
+    3300028: Component#1
+    3300030: Component#1 1
+    3300032: Component#1 2
+    3300034: Component#1 3
+    3300036: Component#2
+    3300038: Component#2 1
+    3300040: Component#5
+    3300042: Corners_Clock
+    3300044: Corners_Clock 1
+    3300046: Corners_Clock 2
+    3300048: Corners_Clock 3
+    3300050: Corners_Glass
+    3300052: Corners_Glass 1
+    3300054: Corners_Glass 2
+    3300056: Corners_Glass 3
+    3300058: Couch_Rectangular
+    3300060: cushion half
+    3300062: cushion half 1
+    3300064: cushion half 10
+    3300066: cushion half 11
+    3300068: cushion half 2
+    3300070: cushion half 3
+    3300072: cushion half 4
+    3300074: cushion half 5
+    3300076: cushion half 6
+    3300078: cushion half 7
+    3300080: cushion half 8
+    3300082: cushion half 9
+    3300084: DIGITAL AUDIO
+    3300086: disc
+    3300088: Double feature
+    3300090: dts
+    3300092: dvd
+    3300094: dvd case#1
+    3300096: dvd case#10
+    3300098: dvd case#11
+    3300100: dvd case#12
+    3300102: dvd case#13
+    3300104: dvd case#14
+    3300106: dvd case#15
+    3300108: dvd case#16
+    3300110: dvd case#17
+    3300112: dvd case#18
+    3300114: dvd case#19
+    3300116: dvd case#2
+    3300118: dvd case#20
+    3300120: dvd case#21
+    3300122: dvd case#23
+    3300124: dvd case#24
+    3300126: dvd case#25
+    3300128: dvd case#26
+    3300130: dvd case#27
+    3300132: dvd case#28
+    3300134: dvd case#29
+    3300136: dvd case#3
+    3300138: dvd case#30
+    3300140: dvd case#31
+    3300142: dvd case#32
+    3300144: dvd case#33
+    3300146: dvd case#34
+    3300148: dvd case#35
+    3300150: dvd case#36
+    3300152: dvd case#37
+    3300154: dvd case#38
+    3300156: dvd case#39
+    3300158: dvd case#4
+    3300160: dvd case#40
+    3300162: dvd case#41
+    3300164: dvd case#42
+    3300166: dvd case#43
+    3300168: dvd case#44
+    3300170: dvd case#45
+    3300172: dvd case#46
+    3300174: dvd case#47
+    3300176: dvd case#48
+    3300178: dvd case#49
+    3300180: dvd case#5
+    3300182: dvd case#6
+    3300184: dvd case#7
+    3300186: dvd case#8
+    3300188: dvd case#9
+    3300190: DVD#1
+    3300192: DVD#2
+    3300194: Group 246
+    3300196: Group 248
+    3300198: Group 3
+    3300200: Group#9
+    3300202: Group#9 1
+    3300204: Image 2
+    3300206: Image 7
+    3300208: Image 8
+    3300210: JVC#6
+    3300212: JVC#6 1
+    3300214: Knob1
+    3300216: Knob1 1
+    3300218: Knob1 10
+    3300220: Knob1 11
+    3300222: Knob1 2
+    3300224: Knob1 3
+    3300226: Knob1 4
+    3300228: Knob1 5
+    3300230: Knob1 6
+    3300232: Knob1 7
+    3300234: Knob1 8
+    3300236: Knob1 9
+    3300238: open
+    3300240: open/close
+    3300242: Panasasonic
+    3300244: play
+    3300246: POWER
+    3300248: rec
+    3300250: side
+    3300252: side 1
+    3300254: side 2
+    3300256: side 3
+    3300258: Side Glass
+    3300260: Side Glass 1
+    3300262: skip
+    3300264: stop
+    3300266: Table_Coffee_Glass
+    3300268: tv
+    3300270: VCR
+    3300272: VCR/DVD
+    3300274: Weight
+    3300276: Weight 1
+    3300278: Weight 2
+    3300280: Window_Casement_Wood_Double_32x36
+    3300282: //RootNode
+    4300000: Mesh woonkamer
+    4300002: Mesh woonkamer
+    4300004: Mesh Group 3
+    4300006: Mesh tv
+    4300008: Mesh tv
+    4300010: Mesh tv
+    4300012: Mesh dvd case#9
+    4300014: Mesh dvd case#7
+    4300016: Mesh dvd case#6
+    4300018: Mesh dvd case#8
+    4300020: Mesh dvd case#28
+    4300022: Mesh dvd case#27
+    4300024: Mesh dvd case#29
+    4300026: Mesh dvd case#36
+    4300028: Mesh dvd case#35
+    4300030: Mesh dvd case#34
+    4300032: Mesh dvd case#32
+    4300034: Mesh dvd case#31
+    4300036: Mesh dvd case#33
+    4300038: Mesh dvd case#37
+    4300040: Mesh dvd case#26
+    4300042: Mesh dvd case#15
+    4300044: Mesh dvd case#14
+    4300046: Mesh dvd case#16
+    4300048: Mesh dvd case#13
+    4300050: Mesh dvd case#5
+    4300052: Mesh dvd case#3
+    4300054: Mesh dvd case#2
+    4300056: Mesh dvd case#4
+    4300058: Mesh dvd case#11
+    4300060: Mesh dvd case#10
+    4300062: Mesh dvd case#42
+    4300064: Mesh dvd case#40
+    4300066: Mesh dvd case#39
+    4300068: Mesh dvd case#41
+    4300070: Mesh dvd case#38
+    4300072: Mesh dvd case#30
+    4300074: Mesh dvd case#12
+    4300076: Mesh dvd case#24
+    4300078: Mesh dvd case#23
+    4300080: Mesh dvd case#21
+    4300082: Mesh dvd case#19
+    4300084: Mesh dvd case#18
+    4300086: Mesh dvd case#20
+    4300088: Mesh dvd case#25
+    4300090: Mesh dvd case#48
+    4300092: Mesh dvd case#47
+    4300094: Mesh dvd case#46
+    4300096: Mesh dvd case#44
+    4300098: Mesh dvd case#43
+    4300100: Mesh dvd case#45
+    4300102: Mesh dvd case#1
+    4300104: Mesh dvd case#17
+    4300106: Mesh dvd case#49
+    4300108: Mesh dvd
+    4300110: Mesh Component#5
+    4300112: Mesh skip
+    4300114: Mesh play
+    4300116: Mesh stop
+    4300118: Mesh open/close
+    4300120: Mesh VCR
+    4300122: Mesh DVD#2
+    4300124: Mesh dts
+    4300126: Mesh open
+    4300128: Mesh VCR/DVD
+    4300130: Mesh CHANNEL
+    4300132: Mesh POWER
+    4300134: Mesh Panasasonic
+    4300136: Mesh Double feature
+    4300138: Mesh disc
+    4300140: Mesh DIGITAL AUDIO
+    4300142: Mesh COMPACT
+    4300144: Mesh DVD#1
+    4300146: Mesh rec
+    4300148: Mesh JVC#6
+    4300150: Mesh book#3
+    4300152: Mesh book#3
+    4300154: Mesh book#3
+    4300156: Mesh book#3
+    4300158: Mesh book#3
+    4300160: Mesh book#3
+    4300162: Mesh cushion half
+    4300164: Mesh side
+    4300166: Mesh Couch_Rectangular
+    4300168: Mesh Table_Coffee_Glass
+    4300170: Mesh Window_Casement_Wood_Double_32x36
+    4300172: Mesh Group#9
+    4300174: Mesh Knob1
+    4300176: Mesh Clock_Grandfather
+    4300178: Mesh Group 246
+    4300180: Mesh Group 248
+    4300182: Mesh Clock
+    4300184: Mesh Clock_Hand
+    4300186: Mesh Corners_Glass
+    4300188: Mesh Side Glass
+    4300190: Mesh Corners_Clock
+    4300192: Mesh Weight
+    4300194: Mesh Component#1
+    4300196: Mesh Component#2
+    4300198: Mesh Component#2
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

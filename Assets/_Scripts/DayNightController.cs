@@ -3,6 +3,7 @@ using System.Collections;
 
 public class DayNightController : MonoBehaviour
 {
+    public bool run;
     public GameObject stars;
     public Light sun;
     public float secondsInFullDay = 120f;
@@ -20,13 +21,16 @@ public class DayNightController : MonoBehaviour
 
     void Update()
     {
-        UpdateSun();
-
-        currentTimeOfDay += (Time.deltaTime / secondsInFullDay) * timeMultiplier;
-
-        if (currentTimeOfDay >= 1)
+        if (run)
         {
-            currentTimeOfDay = 0;
+            UpdateSun();
+
+            currentTimeOfDay += (Time.deltaTime / secondsInFullDay) * timeMultiplier;
+
+            if (currentTimeOfDay >= 1)
+            {
+                currentTimeOfDay = 0;
+            }
         }
     }
 

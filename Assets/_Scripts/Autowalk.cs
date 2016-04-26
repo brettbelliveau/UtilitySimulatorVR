@@ -142,9 +142,9 @@ public class Autowalk : MonoBehaviour
 
     private IEnumerator WaitSeconds(int duration)
     {
-        yield return new WaitForSeconds(duration);
         canToggleWalking = true;
         isWalking = false;
+        yield return new WaitForSeconds(duration);
         waitTime = 0;
     }
 

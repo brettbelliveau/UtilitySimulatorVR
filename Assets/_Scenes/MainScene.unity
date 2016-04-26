@@ -1661,6 +1661,7 @@ MonoBehaviour:
   walkingScript: {fileID: 0}
   m_SelectionRadial: {fileID: 595860547}
   m_Collider: {fileID: 257459954}
+  walkScript: {fileID: 939395672}
 --- !u!65 &257459954
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1954,8 +1955,9 @@ MonoBehaviour:
   text: {fileID: 1872077701}
   m_PairedSlider: {fileID: 991686577}
   m_OnClickedClip: {fileID: 8300000, guid: 5045140e06f86b9479707ca09b3012c8, type: 3}
-  walkingScript: {fileID: 0}
+  walkingScript: {fileID: 939395672}
   handWashed: 0
+  hasRun: 0
 --- !u!224 &371428946
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2837,6 +2839,7 @@ MonoBehaviour:
   walkingScript: {fileID: 0}
   m_SelectionRadial: {fileID: 595860547}
   m_Collider: {fileID: 491388735}
+  walkScript: {fileID: 939395672}
 --- !u!65 &491388735
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4339,6 +4342,7 @@ MonoBehaviour:
   walkingScript: {fileID: 0}
   m_SelectionRadial: {fileID: 595860547}
   m_Collider: {fileID: 774187103}
+  walkScript: {fileID: 939395672}
 --- !u!65 &774187103
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5541,6 +5545,27 @@ BoxCollider:
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_PrefabInternal: {fileID: 1005627074}
+--- !u!114 &939395672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 939395671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c052ee3a9db7b43d4b7fc2f321f4dfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioFile: {fileID: 0}
+  isWalking: 0
+  clickedSomething: 0
+  waitTime: 0
+  speed: 5
+  walkWhenTriggered: 1
+  walkWhenLookDown: 0
+  thresholdAngle: 0
+  freezeYPosition: 0
+  yOffset: 0
 --- !u!4 &939395676 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
@@ -5754,8 +5779,9 @@ MonoBehaviour:
   text: {fileID: 1220289704}
   m_PairedSlider: {fileID: 371428945}
   m_OnClickedClip: {fileID: 8300000, guid: 5045140e06f86b9479707ca09b3012c8, type: 3}
-  walkingScript: {fileID: 0}
+  walkingScript: {fileID: 939395672}
   handWashed: 0
+  hasRun: 0
 --- !u!65 &991686578
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6167,6 +6193,7 @@ MonoBehaviour:
   m_OnClickedClip: {fileID: 0}
   walkingScript: {fileID: 0}
   handWashed: 0
+  hasRun: 0
 --- !u!65 &1026657224
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6584,6 +6611,7 @@ MonoBehaviour:
   m_OnClickedClip: {fileID: 0}
   walkingScript: {fileID: 0}
   handWashed: 0
+  hasRun: 0
 --- !u!65 &1046538223
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6774,6 +6802,7 @@ MonoBehaviour:
   walkingScript: {fileID: 0}
   m_SelectionRadial: {fileID: 595860547}
   m_Collider: {fileID: 1059673013}
+  walkScript: {fileID: 939395672}
 --- !u!65 &1059673013
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7562,6 +7591,7 @@ MonoBehaviour:
   walkingScript: {fileID: 0}
   m_SelectionRadial: {fileID: 595860547}
   m_Collider: {fileID: 1142859797}
+  walkScript: {fileID: 939395672}
 --- !u!65 &1142859797
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8663,6 +8693,7 @@ MonoBehaviour:
   walkingScript: {fileID: 0}
   m_SelectionRadial: {fileID: 595860547}
   m_Collider: {fileID: 1349395672}
+  walkScript: {fileID: 939395672}
 --- !u!65 &1349395672
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9057,6 +9088,7 @@ MonoBehaviour:
   m_OnClickedClip: {fileID: 0}
   walkingScript: {fileID: 0}
   handWashed: 0
+  hasRun: 0
 --- !u!65 &1394244710
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9381,6 +9413,7 @@ MonoBehaviour:
   walkingScript: {fileID: 0}
   m_SelectionRadial: {fileID: 595860547}
   m_Collider: {fileID: 1460578704}
+  walkScript: {fileID: 939395672}
 --- !u!65 &1460578704
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10320,6 +10353,7 @@ MonoBehaviour:
   walkingScript: {fileID: 0}
   m_SelectionRadial: {fileID: 595860547}
   m_Collider: {fileID: 1635885062}
+  walkScript: {fileID: 939395672}
 --- !u!65 &1635885062
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11986,8 +12020,9 @@ MonoBehaviour:
   text: {fileID: 1387411365}
   m_PairedSlider: {fileID: 1856533674}
   m_OnClickedClip: {fileID: 8300000, guid: 52f1bd4da0a720c45b2fec8863d3404f, type: 3}
-  walkingScript: {fileID: 0}
+  walkingScript: {fileID: 939395672}
   handWashed: 0
+  hasRun: 0
 --- !u!65 &1793430395
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12431,6 +12466,7 @@ MonoBehaviour:
   m_OnClickedClip: {fileID: 0}
   walkingScript: {fileID: 0}
   handWashed: 0
+  hasRun: 0
 --- !u!65 &1847062297
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12690,8 +12726,9 @@ MonoBehaviour:
   text: {fileID: 1256348829}
   m_PairedSlider: {fileID: 1793430394}
   m_OnClickedClip: {fileID: 8300000, guid: 52f1bd4da0a720c45b2fec8863d3404f, type: 3}
-  walkingScript: {fileID: 0}
+  walkingScript: {fileID: 939395672}
   handWashed: 0
+  hasRun: 0
 --- !u!65 &1856533675
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13501,6 +13538,7 @@ MonoBehaviour:
   walkingScript: {fileID: 0}
   m_SelectionRadial: {fileID: 595860547}
   m_Collider: {fileID: 1970529356}
+  walkScript: {fileID: 939395672}
 --- !u!65 &1970529356
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14092,6 +14130,7 @@ MonoBehaviour:
   walkingScript: {fileID: 0}
   m_SelectionRadial: {fileID: 595860547}
   m_Collider: {fileID: 2114243852}
+  walkScript: {fileID: 939395672}
 --- !u!65 &2114243852
 BoxCollider:
   m_ObjectHideFlags: 0

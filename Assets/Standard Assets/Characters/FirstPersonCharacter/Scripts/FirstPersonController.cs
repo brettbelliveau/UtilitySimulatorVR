@@ -1,5 +1,7 @@
 using System;
 using UnityEngine;
+using System.Collections;
+using UnityEngine.UI;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
 using Random = UnityEngine.Random;
@@ -27,6 +29,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
         [SerializeField] private AudioClip m_JumpSound;           // the sound played when character leaves the ground.
         [SerializeField] private AudioClip m_LandSound;           // the sound played when character touches back on ground.
+        [SerializeField] private int m_TotalClothing;
+        [SerializeField] private GameObject ClothingGUIOne;
+        [SerializeField] private GameObject ClothingGUITwo;
+        [SerializeField] private GameObject ClothingPanelOne;
+        [SerializeField] private GameObject ClothingPanelTwo;
+
 
         private Camera m_Camera;
         private bool m_Jump;
@@ -41,6 +49,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
+        private int m_ClothingHeld;
 
         // Use this for initialization
         private void Start()
@@ -55,6 +64,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+            m_ClothingHeld = 0;
+            ClothingPanelOne.SetActive(false);
+            ClothingPanelTwo.SetActive(false);
         }
 
 
@@ -254,6 +266,22 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 return;
             }
             body.AddForceAtPosition(m_CharacterController.velocity*0.1f, hit.point, ForceMode.Impulse);
+        }
+
+        public void PickUpClothing ()
+        {
+            m_ClothingHeld++;
+           
+            ClothingGUIOne.GetComponent<Text>().text
+            = "Laundry \n Collected: " + m_ClothingHeld + "/" + m_TotalClothing;
+            ClothingGUITwo.GetComponent<Text>().text
+            = "Laundry \n Collected: " + m_ClothingHeld + "/" + m_TotalClothing;
+
+            if (m_ClothingHeld >= m_TotalClothing)
+            { 
+                ClothingPanelOne.SetActive(true);
+                ClothingPanelTwo.SetActive(true);
+            }
         }
     }
 }

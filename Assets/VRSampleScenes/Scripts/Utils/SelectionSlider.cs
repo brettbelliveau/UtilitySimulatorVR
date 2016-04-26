@@ -33,6 +33,8 @@ namespace VRStandardAssets.Utils
         [SerializeField] private bool m_DisableOnClick;                     // Whether the bar should disable after the first click.
         [SerializeField] private bool m_LockMovementOnClick;                // Stop movement after button is clicked and until bar is filled.
         [SerializeField] private GameObject text;                           // Any text on the panel/slider
+        [SerializeField] private SelectionSlider m_PairedSlider;
+        [SerializeField] private AudioClip m_OnClickedClip;
 
         /* Fields used for money dispenser */
 
@@ -48,16 +50,16 @@ namespace VRStandardAssets.Utils
 		private bool m_GazeOver;                                            // Whether the user is currently looking at the bar.
 		private float m_Timer;                                              // Used to determine how much of the bar should be filled.
 		private Coroutine m_FillBarRoutine;                                 // Reference to the coroutine that controls the bar filling up, used to stop it if required.
-		private const string k_SliderMaterialPropertyName = "_SliderValue"; // The name of the property on the SlidingUV shader that needs to be changed in order for it to fill.
+        private Coroutine m_FillOtherBarRoutine;                                 // Reference to the coroutine that controls the bar filling up, used to stop it if required.
+        private const string k_SliderMaterialPropertyName = "_SliderValue"; // The name of the property on the SlidingUV shader that needs to be changed in order for it to fill.
         private int fontSize;
         private float walkSpeed;
         private float runSpeed;
+        public bool handWashed;
 
         private void Start ()
         {
-            fontSize = text.GetComponent<Text>().fontSize;
             inProgress = false;
-
             fps = FPSController.GetComponent<FirstPersonController>();
             walkSpeed = fps.m_WalkSpeed;
             runSpeed = fps.m_RunSpeed;
@@ -124,8 +126,13 @@ namespace VRStandardAssets.Utils
 		}
 
 
-		private IEnumerator FillBar ()
+		public IEnumerator FillBar ()
 		{
+            if (m_Duration > m_PairedSlider.m_Duration)
+                handWashed = true;
+            else
+                handWashed = false;
+
             inProgress = true;
             // Disable the bar so user cannot repeatedly press it
             if (m_DisableOnClick) { 
@@ -137,8 +144,12 @@ namespace VRStandardAssets.Utils
                 fps.m_WalkSpeed = fps.m_RunSpeed = 0;
             }
 
-            m_Audio.clip = m_OnFilledClip;
-            m_Audio.Play();
+
+
+            AudioSource audio = gameObject.GetComponent<AudioSource>();
+            audio.loop = true;
+            audio.clip = m_OnClickedClip;
+            audio.Play();
 
             // When the bar starts to fill, reset the timer.
             m_Timer = 0f;
@@ -171,6 +182,9 @@ namespace VRStandardAssets.Utils
 				yield break;
 			}
 
+            audio.Pause();
+            audio.loop = false;
+
 			// Play the clip for when the bar is filled.
 			m_Audio.clip = m_OnFilledClip;
 			m_Audio.Play();
@@ -194,14 +208,28 @@ namespace VRStandardAssets.Utils
 				m_Renderer.sharedMaterial.SetFloat (k_SliderMaterialPropertyName, sliderValue);
 		}
 
+        //To be called only by the paired slider
+        public void InstantFill ()
+        {
+            inProgress = true;
+            SetSliderValue(1);
+            text.GetComponent<Text>().text = "\n Activity \n Complete";
+            if (m_Duration > m_PairedSlider.m_Duration)
+                handWashed = false;
+            else
+                handWashed = true;
+        }
 
-		private void HandleDown ()
+        private void HandleDown ()
 		{
 			// If the user is looking at the bar start the FillBar coroutine and store a reference to it.
 			if (m_GazeOver && !inProgress) {
 				m_FillBarRoutine = StartCoroutine(FillBar());
-				// ToggleSelection();
-			}
+                Debug.Log("Starting");
+
+                if (m_PairedSlider != null)
+                    m_PairedSlider.InstantFill();
+            }
 		}
 
 

@@ -1,0 +1,140 @@
+fileFormatVersion: 2
+guid: 07d9cddd34a2d4a41be7bd1599af75de
+timeCreated: 1461615954
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001500000016000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 5eaf2da2a546ce2db7326e6673e50c84
+  longitude: -71.99976
+  latitude: 19.111723
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 3.1265128, y: 1.4893441, z: -3.9027364}
+      lookAt: {x: -150.92818, y: -54.17149, z: 363.55743}
+      up: {x: -0.05349181, y: 0.99038327, z: 0.12759176}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Stockade Picket
+    100004: Stockade Picket 1
+    100006: Stockade Picket 2
+    100008: Stockade Picket 3
+    100010: Stockade Picket 4
+    100012: Stockade Picket 5
+    100014: Stockade Post
+    100016: Stockade Post 1
+    100018: Stockade Rail
+    100020: Stockade Rail 1
+    100022: Stockade Rail 2
+    400000: //RootNode
+    400002: Stockade Picket
+    400004: Stockade Picket 1
+    400006: Stockade Picket 2
+    400008: Stockade Picket 3
+    400010: Stockade Picket 4
+    400012: Stockade Picket 5
+    400014: Stockade Post
+    400016: Stockade Post 1
+    400018: Stockade Rail
+    400020: Stockade Rail 1
+    400022: Stockade Rail 2
+    2300000: Stockade Picket
+    2300002: Stockade Picket 1
+    2300004: Stockade Picket 2
+    2300006: Stockade Picket 3
+    2300008: Stockade Picket 4
+    2300010: Stockade Picket 5
+    2300012: Stockade Post
+    2300014: Stockade Post 1
+    2300016: Stockade Rail
+    2300018: Stockade Rail 1
+    2300020: Stockade Rail 2
+    3300000: Stockade Picket
+    3300002: Stockade Picket 1
+    3300004: Stockade Picket 2
+    3300006: Stockade Picket 3
+    3300008: Stockade Picket 4
+    3300010: Stockade Picket 5
+    3300012: Stockade Post
+    3300014: Stockade Post 1
+    3300016: Stockade Rail
+    3300018: Stockade Rail 1
+    3300020: Stockade Rail 2
+    4300000: Mesh Stockade Picket
+    4300002: Mesh Stockade Rail
+    4300004: Mesh Stockade Post
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

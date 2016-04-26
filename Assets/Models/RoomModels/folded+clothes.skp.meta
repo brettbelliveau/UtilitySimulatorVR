@@ -1,0 +1,524 @@
+fileFormatVersion: 2
+guid: 99f931ee0c05847af9355940db85c458
+timeCreated: 1461622017
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000
+  assetHash:
+    serializedVersion: 2
+    Hash: c03c8ffb10410a4c0ee9f680ae5572a6
+  longitude: 2.333
+  latitude: 48.867
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 1.7998211, y: 0.975292, z: -0.95131373}
+      lookAt: {x: 1.0743772, y: -0.20251963, z: 0.34850076}
+      up: {x: -0.30240017, y: 0.7842061, z: 0.54182553}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 2 chemises bleues
+    100002: 3 chemises grises
+    100004: 4 chemises blanches
+    100006: Chemise blanche
+    100008: Chemise blanche 1
+    100010: Chemise blanche 2
+    100012: Chemise blanche 3
+    100014: Chemise blanche 4
+    100016: Chemise bleue
+    100018: chemise bleue
+    100020: chemise bleue 1
+    100022: chemise et boutons
+    100024: chemise et boutons 1
+    100026: chemise et boutons 2
+    100028: chemise et boutons 3
+    100030: chemise et boutons 4
+    100032: chemise et boutons 5
+    100034: chemise et boutons 6
+    100036: chemise et boutons 7
+    100038: chemise et boutons 8
+    100040: chemise et boutons 9
+    100042: Chemise g
+    100044: Chemise g 1
+    100046: Chemise g 2
+    100048: col
+    100050: col 1
+    100052: col 2
+    100054: col 3
+    100056: col 4
+    100058: col 5
+    100060: col 6
+    100062: col 7
+    100064: col 8
+    100066: col 9
+    100068: "Etag\xE8re translucide"
+    100070: //RootNode
+    100072: Group 10
+    100074: Group 100
+    100076: Group 101
+    100078: Group 111
+    100080: Group 113
+    100082: Group 115
+    100084: Group 117
+    100086: Group 118
+    100088: Group 12
+    100090: Group 120
+    100092: Group 121
+    100094: Group 129
+    100096: Group 134
+    100098: Group 136
+    100100: Group 138
+    100102: Group 14
+    100104: Group 140
+    100106: Group 141
+    100108: Group 143
+    100110: Group 144
+    100112: Group 149
+    100114: Group 154
+    100116: Group 156
+    100118: Group 158
+    100120: Group 16
+    100122: Group 160
+    100124: Group 161
+    100126: Group 163
+    100128: Group 164
+    100130: Group 169
+    100132: Group 17
+    100134: Group 174
+    100136: Group 176
+    100138: Group 178
+    100140: Group 180
+    100142: Group 181
+    100144: Group 183
+    100146: Group 184
+    100148: Group 189
+    100150: Group 19
+    100152: Group 194
+    100154: Group 196
+    100156: Group 198
+    100158: Group 20
+    100160: Group 200
+    100162: Group 201
+    100164: Group 203
+    100166: Group 204
+    100168: Group 25
+    100170: Group 30
+    100172: Group 32
+    100174: Group 34
+    100176: Group 36
+    100178: Group 37
+    100180: Group 39
+    100182: Group 40
+    100184: Group 45
+    100186: Group 5
+    100188: Group 50
+    100190: Group 52
+    100192: Group 54
+    100194: Group 56
+    100196: Group 57
+    100198: Group 59
+    100200: Group 60
+    100202: Group 65
+    100204: Group 70
+    100206: Group 72
+    100208: Group 74
+    100210: Group 76
+    100212: Group 77
+    100214: Group 79
+    100216: Group 80
+    100218: Group 86
+    100220: Group 91
+    100222: Group 93
+    100224: Group 95
+    100226: Group 97
+    100228: Group 98
+    100230: manche droite
+    100232: manche droite 1
+    100234: manche droite 2
+    100236: manche droite 3
+    100238: manche droite 4
+    100240: manche droite 5
+    100242: manche droite 6
+    100244: manche droite 7
+    100246: manche droite 8
+    100248: manche droite 9
+    400000: 2 chemises bleues
+    400002: 3 chemises grises
+    400004: 4 chemises blanches
+    400006: Chemise blanche
+    400008: Chemise blanche 1
+    400010: Chemise blanche 2
+    400012: Chemise blanche 3
+    400014: Chemise blanche 4
+    400016: Chemise bleue
+    400018: chemise bleue
+    400020: chemise bleue 1
+    400022: chemise et boutons
+    400024: chemise et boutons 1
+    400026: chemise et boutons 2
+    400028: chemise et boutons 3
+    400030: chemise et boutons 4
+    400032: chemise et boutons 5
+    400034: chemise et boutons 6
+    400036: chemise et boutons 7
+    400038: chemise et boutons 8
+    400040: chemise et boutons 9
+    400042: Chemise g
+    400044: Chemise g 1
+    400046: Chemise g 2
+    400048: col
+    400050: col 1
+    400052: col 2
+    400054: col 3
+    400056: col 4
+    400058: col 5
+    400060: col 6
+    400062: col 7
+    400064: col 8
+    400066: col 9
+    400068: "Etag\xE8re translucide"
+    400070: //RootNode
+    400072: Group 10
+    400074: Group 100
+    400076: Group 101
+    400078: Group 111
+    400080: Group 113
+    400082: Group 115
+    400084: Group 117
+    400086: Group 118
+    400088: Group 12
+    400090: Group 120
+    400092: Group 121
+    400094: Group 129
+    400096: Group 134
+    400098: Group 136
+    400100: Group 138
+    400102: Group 14
+    400104: Group 140
+    400106: Group 141
+    400108: Group 143
+    400110: Group 144
+    400112: Group 149
+    400114: Group 154
+    400116: Group 156
+    400118: Group 158
+    400120: Group 16
+    400122: Group 160
+    400124: Group 161
+    400126: Group 163
+    400128: Group 164
+    400130: Group 169
+    400132: Group 17
+    400134: Group 174
+    400136: Group 176
+    400138: Group 178
+    400140: Group 180
+    400142: Group 181
+    400144: Group 183
+    400146: Group 184
+    400148: Group 189
+    400150: Group 19
+    400152: Group 194
+    400154: Group 196
+    400156: Group 198
+    400158: Group 20
+    400160: Group 200
+    400162: Group 201
+    400164: Group 203
+    400166: Group 204
+    400168: Group 25
+    400170: Group 30
+    400172: Group 32
+    400174: Group 34
+    400176: Group 36
+    400178: Group 37
+    400180: Group 39
+    400182: Group 40
+    400184: Group 45
+    400186: Group 5
+    400188: Group 50
+    400190: Group 52
+    400192: Group 54
+    400194: Group 56
+    400196: Group 57
+    400198: Group 59
+    400200: Group 60
+    400202: Group 65
+    400204: Group 70
+    400206: Group 72
+    400208: Group 74
+    400210: Group 76
+    400212: Group 77
+    400214: Group 79
+    400216: Group 80
+    400218: Group 86
+    400220: Group 91
+    400222: Group 93
+    400224: Group 95
+    400226: Group 97
+    400228: Group 98
+    400230: manche droite
+    400232: manche droite 1
+    400234: manche droite 2
+    400236: manche droite 3
+    400238: manche droite 4
+    400240: manche droite 5
+    400242: manche droite 6
+    400244: manche droite 7
+    400246: manche droite 8
+    400248: manche droite 9
+    2300000: chemise et boutons
+    2300002: chemise et boutons 1
+    2300004: chemise et boutons 2
+    2300006: chemise et boutons 3
+    2300008: chemise et boutons 4
+    2300010: chemise et boutons 5
+    2300012: chemise et boutons 6
+    2300014: chemise et boutons 7
+    2300016: chemise et boutons 8
+    2300018: chemise et boutons 9
+    2300020: col
+    2300022: col 1
+    2300024: col 2
+    2300026: col 3
+    2300028: col 4
+    2300030: col 5
+    2300032: col 6
+    2300034: col 7
+    2300036: col 8
+    2300038: col 9
+    2300040: "Etag\xE8re translucide"
+    2300042: Group 10
+    2300044: Group 101
+    2300046: Group 111
+    2300048: Group 113
+    2300050: Group 115
+    2300052: Group 118
+    2300054: Group 12
+    2300056: Group 121
+    2300058: Group 134
+    2300060: Group 136
+    2300062: Group 138
+    2300064: Group 14
+    2300066: Group 141
+    2300068: Group 144
+    2300070: Group 154
+    2300072: Group 156
+    2300074: Group 158
+    2300076: Group 161
+    2300078: Group 164
+    2300080: Group 17
+    2300082: Group 174
+    2300084: Group 176
+    2300086: Group 178
+    2300088: Group 181
+    2300090: Group 184
+    2300092: Group 194
+    2300094: Group 196
+    2300096: Group 198
+    2300098: Group 20
+    2300100: Group 201
+    2300102: Group 204
+    2300104: Group 30
+    2300106: Group 32
+    2300108: Group 34
+    2300110: Group 37
+    2300112: Group 40
+    2300114: Group 50
+    2300116: Group 52
+    2300118: Group 54
+    2300120: Group 57
+    2300122: Group 60
+    2300124: Group 70
+    2300126: Group 72
+    2300128: Group 74
+    2300130: Group 77
+    2300132: Group 80
+    2300134: Group 91
+    2300136: Group 93
+    2300138: Group 95
+    2300140: Group 98
+    2300142: manche droite
+    2300144: manche droite 1
+    2300146: manche droite 2
+    2300148: manche droite 3
+    2300150: manche droite 4
+    2300152: manche droite 5
+    2300154: manche droite 6
+    2300156: manche droite 7
+    2300158: manche droite 8
+    2300160: manche droite 9
+    3300000: chemise et boutons
+    3300002: chemise et boutons 1
+    3300004: chemise et boutons 2
+    3300006: chemise et boutons 3
+    3300008: chemise et boutons 4
+    3300010: chemise et boutons 5
+    3300012: chemise et boutons 6
+    3300014: chemise et boutons 7
+    3300016: chemise et boutons 8
+    3300018: chemise et boutons 9
+    3300020: col
+    3300022: col 1
+    3300024: col 2
+    3300026: col 3
+    3300028: col 4
+    3300030: col 5
+    3300032: col 6
+    3300034: col 7
+    3300036: col 8
+    3300038: col 9
+    3300040: "Etag\xE8re translucide"
+    3300042: Group 10
+    3300044: Group 101
+    3300046: Group 111
+    3300048: Group 113
+    3300050: Group 115
+    3300052: Group 118
+    3300054: Group 12
+    3300056: Group 121
+    3300058: Group 134
+    3300060: Group 136
+    3300062: Group 138
+    3300064: Group 14
+    3300066: Group 141
+    3300068: Group 144
+    3300070: Group 154
+    3300072: Group 156
+    3300074: Group 158
+    3300076: Group 161
+    3300078: Group 164
+    3300080: Group 17
+    3300082: Group 174
+    3300084: Group 176
+    3300086: Group 178
+    3300088: Group 181
+    3300090: Group 184
+    3300092: Group 194
+    3300094: Group 196
+    3300096: Group 198
+    3300098: Group 20
+    3300100: Group 201
+    3300102: Group 204
+    3300104: Group 30
+    3300106: Group 32
+    3300108: Group 34
+    3300110: Group 37
+    3300112: Group 40
+    3300114: Group 50
+    3300116: Group 52
+    3300118: Group 54
+    3300120: Group 57
+    3300122: Group 60
+    3300124: Group 70
+    3300126: Group 72
+    3300128: Group 74
+    3300130: Group 77
+    3300132: Group 80
+    3300134: Group 91
+    3300136: Group 93
+    3300138: Group 95
+    3300140: Group 98
+    3300142: manche droite
+    3300144: manche droite 1
+    3300146: manche droite 2
+    3300148: manche droite 3
+    3300150: manche droite 4
+    3300152: manche droite 5
+    3300154: manche droite 6
+    3300156: manche droite 7
+    3300158: manche droite 8
+    3300160: manche droite 9
+    4300000: Mesh manche droite
+    4300002: Mesh col
+    4300004: Mesh chemise et boutons
+    4300006: Mesh Group 10
+    4300008: Mesh Group 12
+    4300010: Mesh Group 14
+    4300012: Mesh Group 17
+    4300014: Mesh Group 20
+    4300016: Mesh manche droite
+    4300018: Mesh col
+    4300020: Mesh chemise et boutons
+    4300022: Mesh Group 70
+    4300024: Mesh Group 72
+    4300026: Mesh Group 77
+    4300028: Mesh manche droite
+    4300030: Mesh col
+    4300032: Mesh chemise et boutons
+    4300034: Mesh Group 91
+    4300036: Mesh Group 93
+    4300038: Mesh Group 98
+    4300040: "Mesh Etag\xE8re translucide"
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

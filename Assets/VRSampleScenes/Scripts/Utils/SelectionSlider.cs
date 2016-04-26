@@ -33,6 +33,7 @@ namespace VRStandardAssets.Utils
         [SerializeField] private bool m_DisableOnClick;                     // Whether the bar should disable after the first click.
         [SerializeField] private bool m_LockMovementOnClick;                // Stop movement after button is clicked and until bar is filled.
         [SerializeField] private GameObject text;                           // Any text on the panel/slider
+        [SerializeField] private SelectionSlider m_PairedSlider;
 
         /* Fields used for money dispenser */
 
@@ -48,7 +49,8 @@ namespace VRStandardAssets.Utils
 		private bool m_GazeOver;                                            // Whether the user is currently looking at the bar.
 		private float m_Timer;                                              // Used to determine how much of the bar should be filled.
 		private Coroutine m_FillBarRoutine;                                 // Reference to the coroutine that controls the bar filling up, used to stop it if required.
-		private const string k_SliderMaterialPropertyName = "_SliderValue"; // The name of the property on the SlidingUV shader that needs to be changed in order for it to fill.
+        private Coroutine m_FillOtherBarRoutine;                                 // Reference to the coroutine that controls the bar filling up, used to stop it if required.
+        private const string k_SliderMaterialPropertyName = "_SliderValue"; // The name of the property on the SlidingUV shader that needs to be changed in order for it to fill.
         private int fontSize;
         private float walkSpeed;
         private float runSpeed;
@@ -124,7 +126,7 @@ namespace VRStandardAssets.Utils
 		}
 
 
-		private IEnumerator FillBar ()
+		public IEnumerator FillBar ()
 		{
             inProgress = true;
             // Disable the bar so user cannot repeatedly press it
@@ -194,14 +196,24 @@ namespace VRStandardAssets.Utils
 				m_Renderer.sharedMaterial.SetFloat (k_SliderMaterialPropertyName, sliderValue);
 		}
 
+        //To be called only by the paired slider
+        public void InstantFill ()
+        {
+            inProgress = true;
+            SetSliderValue(1);
+            text.GetComponent<Text>().text = "\n Activity \n Complete";
+        }
 
-		private void HandleDown ()
+        private void HandleDown ()
 		{
 			// If the user is looking at the bar start the FillBar coroutine and store a reference to it.
 			if (m_GazeOver && !inProgress) {
 				m_FillBarRoutine = StartCoroutine(FillBar());
-				// ToggleSelection();
-			}
+                Debug.Log("Starting");
+
+                if (m_PairedSlider != null)
+                    m_PairedSlider.InstantFill();
+            }
 		}
 
 

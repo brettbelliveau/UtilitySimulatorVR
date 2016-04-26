@@ -1,0 +1,1196 @@
+fileFormatVersion: 2
+guid: 373512f149dad457db64a9cd74b266f5
+timeCreated: 1461625086
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c0100002d0100002e0100002f010000300100003101000032010000330100003401000035010000360100003701000038010000390100003a0100003b0100003c0100003d0100003e0100003f010000400100004101000042010000430100004401000045010000460100004701000048010000490100004a0100004b0100004c0100004d0100004e0100004f010000500100005101000052010000530100005401000055010000560100005701000058010000590100005a0100005b0100005c0100005d0100005e0100005f010000600100006101000062010000630100006401000065010000660100006701000068010000690100006a0100006b0100006c0100006d0100006e0100006f010000700100007101000072010000730100007401000075010000760100007701000078010000790100007a0100007b0100007c0100007d0100007e0100007f010000800100008101000082010000830100008401000085010000860100008701000088010000890100008a0100008b0100008c0100008d0100008e0100008f010000900100009101000092010000930100009401000095010000960100009701000098010000990100009a0100009b0100009c0100009d0100009e0100009f010000a0010000a1010000a2010000a3010000a4010000a5010000a6010000a7010000a8010000a9010000aa010000ab010000ac010000ad010000ae010000af010000b0010000b1010000b2010000b3010000b4010000b7010000b8010000b9010000ba010000bb010000bc010000bd010000be010000bf010000c0010000c1010000c2010000c3010000c4010000c5010000c6010000c7010000c8010000c9010000ca010000cb010000cc010000cd010000ce010000cf010000d0010000d1010000d2010000d3010000d4010000d5010000d6010000d7010000d8010000d9010000da010000db010000dc010000dd010000de010000df010000e0010000e1010000e2010000e3010000e4010000e5010000e6010000e7010000e8010000e9010000ea010000eb010000ec010000ed010000ee010000
+  assetHash:
+    serializedVersion: 2
+    Hash: 3c1c1e24324f8f4cf8310853a0064eb4
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 0.595894, y: 2.1184225, z: 0.70642275}
+      lookAt: {x: 13.014734, y: -9.935701, z: 18.1033}
+      up: {x: 0.28539914, y: 0.871038, z: 0.3998001}
+      fov: 65
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes:
+    - camera:
+        position: {x: 0.595894, y: 2.1184225, z: 0.70642275}
+        lookAt: {x: 13.014734, y: -9.935701, z: 18.1033}
+        up: {x: 0.28539914, y: 0.871038, z: 0.3998001}
+        fov: 65
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: od dveri
+    - camera:
+        position: {x: 2.9229817, y: 1.911229, z: 0.9233217}
+        lookAt: {x: -11.755341, y: -6.9924383, z: 18.457642}
+        up: {x: -0.23290041, y: 0.9318546, z: 0.27821642}
+        fov: 65
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: 'od skrine '
+    - camera:
+        position: {x: 3.74932, y: 1.5912442, z: 4.124922}
+        lookAt: {x: -15.460505, y: -5.3669863, z: -9.467228}
+        up: {x: -0.23147091, y: 0.95895636, z: -0.16378012}
+        fov: 65
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: z rohu
+    - camera:
+        position: {x: 0.48566157, y: 1.2252251, z: 4.2639856}
+        lookAt: {x: 18.141647, y: -3.5241926, z: -12.103361}
+        up: {x: 0.14193703, y: 0.98109186, z: -0.13157763}
+        fov: 65
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: od balkona
+    - camera:
+        position: {x: 0.95769286, y: 0.7444611, z: 2.945634}
+        lookAt: {x: 25.422688, y: 2.196053, z: 1.7055533}
+        up: {x: -0.05907774, y: 0.99824893, z: 0.0029945301}
+        fov: 65
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: z postele
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 12
+    100002: 3
+    100004: 6
+    100006: 9
+    100008: bed Anny
+    100010: bill
+    100012: bill 1
+    100014: bill 2
+    100016: body
+    100018: body 1
+    100020: body 2
+    100022: Book
+    100024: Book 1
+    100026: Book 2
+    100028: Book 3
+    100030: Book 4
+    100032: Book 5
+    100034: Book 6
+    100036: Book 7
+    100038: Book 8
+    100040: Bryce
+    100042: chain
+    100044: chain 1
+    100046: chain 2
+    100048: Component#1
+    100050: Component#1 1
+    100052: Component#2
+    100054: //RootNode
+    100056: end
+    100058: end 1
+    100060: Group 10
+    100062: Group 119
+    100064: Group 12
+    100066: Group 121
+    100068: Group 123
+    100070: Group 125
+    100072: Group 126
+    100074: Group 128
+    100076: Group 130
+    100078: Group 132
+    100080: Group 134
+    100082: Group 136
+    100084: Group 138
+    100086: Group 14
+    100088: Group 140
+    100090: Group 142
+    100092: Group 144
+    100094: Group 146
+    100096: Group 148
+    100098: Group 150
+    100100: Group 152
+    100102: Group 153
+    100104: Group 155
+    100106: Group 157
+    100108: Group 159
+    100110: Group 16
+    100112: Group 161
+    100114: Group 163
+    100116: Group 165
+    100118: Group 167
+    100120: Group 169
+    100122: Group 171
+    100124: Group 173
+    100126: Group 175
+    100128: Group 177
+    100130: Group 179
+    100132: Group 18
+    100134: Group 2
+    100136: Group 20
+    100138: Group 22
+    100140: Group 24
+    100142: Group 26
+    100144: Group 28
+    100146: Group 30
+    100148: Group 32
+    100150: Group 34
+    100152: Group 36
+    100154: Group 38
+    100156: Group 397
+    100158: Group 398
+    100160: Group 399
+    100162: Group 4
+    100164: Group 40
+    100166: Group 400
+    100168: Group 401
+    100170: Group 402
+    100172: Group 403
+    100174: Group 404
+    100176: Group 405
+    100178: Group 406
+    100180: Group 407
+    100182: Group 408
+    100184: Group 409
+    100186: Group 410
+    100188: Group 411
+    100190: Group 412
+    100192: Group 415
+    100194: Group 416
+    100196: Group 417
+    100198: Group 418
+    100200: Group 419
+    100202: Group 42
+    100204: Group 420
+    100206: Group 421
+    100208: Group 422
+    100210: Group 423
+    100212: Group 424
+    100214: Group 425
+    100216: Group 426
+    100218: Group 427
+    100220: Group 428
+    100222: Group 429
+    100224: Group 430
+    100226: Group 44
+    100228: Group 46
+    100230: Group 48
+    100232: Group 50
+    100234: Group 6
+    100236: Group 73
+    100238: Group 8
+    100240: Group 96
+    100242: hodiny
+    100244: kniznica
+    100246: koberec
+    100248: kocky
+    100250: kvet
+    100252: kvet 1
+    100254: kvet#1
+    100256: kvet#2
+    100258: kvet#3
+    100260: kvet#4
+    100262: kvet#5
+    100264: kvet#6
+    100266: kvet#7
+    100268: macik
+    100270: macik 1
+    100272: macik 10
+    100274: macik 11
+    100276: macik 12
+    100278: macik 13
+    100280: macik 14
+    100282: macik 15
+    100284: macik 16
+    100286: macik 17
+    100288: macik 18
+    100290: macik 19
+    100292: macik 2
+    100294: macik 20
+    100296: macik 21
+    100298: macik 22
+    100300: macik 23
+    100302: macik 24
+    100304: macik 25
+    100306: macik 26
+    100308: macik 27
+    100310: macik 28
+    100312: macik 29
+    100314: macik 3
+    100316: macik 30
+    100318: macik 31
+    100320: macik 32
+    100322: macik 33
+    100324: macik 34
+    100326: macik 35
+    100328: macik 36
+    100330: macik 37
+    100332: macik 38
+    100334: macik 39
+    100336: macik 4
+    100338: macik 40
+    100340: macik 41
+    100342: macik 42
+    100344: macik 43
+    100346: macik 44
+    100348: macik 45
+    100350: macik 46
+    100352: macik 47
+    100354: macik 48
+    100356: macik 49
+    100358: macik 5
+    100360: macik 50
+    100362: macik 51
+    100364: macik 52
+    100366: macik 53
+    100368: macik 54
+    100370: macik 55
+    100372: macik 56
+    100374: macik 57
+    100376: macik 58
+    100378: macik 59
+    100380: macik 6
+    100382: macik 60
+    100384: macik 61
+    100386: macik 62
+    100388: macik 63
+    100390: macik 64
+    100392: macik 65
+    100394: macik 66
+    100396: macik 67
+    100398: macik 68
+    100400: macik 69
+    100402: macik 7
+    100404: macik 70
+    100406: macik 71
+    100408: macik 72
+    100410: macik 73
+    100412: macik 74
+    100414: macik 75
+    100416: macik 76
+    100418: macik 77
+    100420: macik 78
+    100422: macik 79
+    100424: macik 8
+    100426: macik 80
+    100428: macik 81
+    100430: macik 82
+    100432: macik 83
+    100434: macik 84
+    100436: macik 85
+    100438: macik 86
+    100440: macik 87
+    100442: macik 88
+    100444: macik 89
+    100446: macik 9
+    100448: macik 90
+    100450: macik 91
+    100452: macik 92
+    100454: macik 93
+    100456: macik 94
+    100458: macik 95
+    100460: macik 96
+    100462: macik 97
+    100464: macik 98
+    100466: macik 99
+    100468: nocny stolik
+    100470: pillow
+    100472: pull02
+    100474: pull03
+    100476: pully01
+    100478: pully04
+    100480: pully05
+    100482: pully06
+    100484: skrina#1
+    100486: teddy bear
+    100488: teddy bear 1
+    100490: teddy bear 2
+    100492: wheel01
+    100494: wheel01 1
+    100496: wheel01 2
+    100498: wheel02
+    100500: wheel02 1
+    100502: wheel02 2
+    100504: wheel03
+    100506: wheel03 1
+    100508: wheel03 2
+    100510: wheel04
+    100512: wheel04 1
+    100514: wheel04 2
+    100516: Window_Curtains2
+    100518: wing right
+    100520: wing right 1
+    100522: wing right 2
+    100524: wingleft
+    100526: wingleft 1
+    100528: wingleft 2
+    400000: 12
+    400002: 3
+    400004: 6
+    400006: 9
+    400008: bed Anny
+    400010: bill
+    400012: bill 1
+    400014: bill 2
+    400016: body
+    400018: body 1
+    400020: body 2
+    400022: Book
+    400024: Book 1
+    400026: Book 2
+    400028: Book 3
+    400030: Book 4
+    400032: Book 5
+    400034: Book 6
+    400036: Book 7
+    400038: Book 8
+    400040: Bryce
+    400042: chain
+    400044: chain 1
+    400046: chain 2
+    400048: Component#1
+    400050: Component#1 1
+    400052: Component#2
+    400054: //RootNode
+    400056: end
+    400058: end 1
+    400060: Group 10
+    400062: Group 119
+    400064: Group 12
+    400066: Group 121
+    400068: Group 123
+    400070: Group 125
+    400072: Group 126
+    400074: Group 128
+    400076: Group 130
+    400078: Group 132
+    400080: Group 134
+    400082: Group 136
+    400084: Group 138
+    400086: Group 14
+    400088: Group 140
+    400090: Group 142
+    400092: Group 144
+    400094: Group 146
+    400096: Group 148
+    400098: Group 150
+    400100: Group 152
+    400102: Group 153
+    400104: Group 155
+    400106: Group 157
+    400108: Group 159
+    400110: Group 16
+    400112: Group 161
+    400114: Group 163
+    400116: Group 165
+    400118: Group 167
+    400120: Group 169
+    400122: Group 171
+    400124: Group 173
+    400126: Group 175
+    400128: Group 177
+    400130: Group 179
+    400132: Group 18
+    400134: Group 2
+    400136: Group 20
+    400138: Group 22
+    400140: Group 24
+    400142: Group 26
+    400144: Group 28
+    400146: Group 30
+    400148: Group 32
+    400150: Group 34
+    400152: Group 36
+    400154: Group 38
+    400156: Group 397
+    400158: Group 398
+    400160: Group 399
+    400162: Group 4
+    400164: Group 40
+    400166: Group 400
+    400168: Group 401
+    400170: Group 402
+    400172: Group 403
+    400174: Group 404
+    400176: Group 405
+    400178: Group 406
+    400180: Group 407
+    400182: Group 408
+    400184: Group 409
+    400186: Group 410
+    400188: Group 411
+    400190: Group 412
+    400192: Group 415
+    400194: Group 416
+    400196: Group 417
+    400198: Group 418
+    400200: Group 419
+    400202: Group 42
+    400204: Group 420
+    400206: Group 421
+    400208: Group 422
+    400210: Group 423
+    400212: Group 424
+    400214: Group 425
+    400216: Group 426
+    400218: Group 427
+    400220: Group 428
+    400222: Group 429
+    400224: Group 430
+    400226: Group 44
+    400228: Group 46
+    400230: Group 48
+    400232: Group 50
+    400234: Group 6
+    400236: Group 73
+    400238: Group 8
+    400240: Group 96
+    400242: hodiny
+    400244: kniznica
+    400246: koberec
+    400248: kocky
+    400250: kvet
+    400252: kvet 1
+    400254: kvet#1
+    400256: kvet#2
+    400258: kvet#3
+    400260: kvet#4
+    400262: kvet#5
+    400264: kvet#6
+    400266: kvet#7
+    400268: macik
+    400270: macik 1
+    400272: macik 10
+    400274: macik 11
+    400276: macik 12
+    400278: macik 13
+    400280: macik 14
+    400282: macik 15
+    400284: macik 16
+    400286: macik 17
+    400288: macik 18
+    400290: macik 19
+    400292: macik 2
+    400294: macik 20
+    400296: macik 21
+    400298: macik 22
+    400300: macik 23
+    400302: macik 24
+    400304: macik 25
+    400306: macik 26
+    400308: macik 27
+    400310: macik 28
+    400312: macik 29
+    400314: macik 3
+    400316: macik 30
+    400318: macik 31
+    400320: macik 32
+    400322: macik 33
+    400324: macik 34
+    400326: macik 35
+    400328: macik 36
+    400330: macik 37
+    400332: macik 38
+    400334: macik 39
+    400336: macik 4
+    400338: macik 40
+    400340: macik 41
+    400342: macik 42
+    400344: macik 43
+    400346: macik 44
+    400348: macik 45
+    400350: macik 46
+    400352: macik 47
+    400354: macik 48
+    400356: macik 49
+    400358: macik 5
+    400360: macik 50
+    400362: macik 51
+    400364: macik 52
+    400366: macik 53
+    400368: macik 54
+    400370: macik 55
+    400372: macik 56
+    400374: macik 57
+    400376: macik 58
+    400378: macik 59
+    400380: macik 6
+    400382: macik 60
+    400384: macik 61
+    400386: macik 62
+    400388: macik 63
+    400390: macik 64
+    400392: macik 65
+    400394: macik 66
+    400396: macik 67
+    400398: macik 68
+    400400: macik 69
+    400402: macik 7
+    400404: macik 70
+    400406: macik 71
+    400408: macik 72
+    400410: macik 73
+    400412: macik 74
+    400414: macik 75
+    400416: macik 76
+    400418: macik 77
+    400420: macik 78
+    400422: macik 79
+    400424: macik 8
+    400426: macik 80
+    400428: macik 81
+    400430: macik 82
+    400432: macik 83
+    400434: macik 84
+    400436: macik 85
+    400438: macik 86
+    400440: macik 87
+    400442: macik 88
+    400444: macik 89
+    400446: macik 9
+    400448: macik 90
+    400450: macik 91
+    400452: macik 92
+    400454: macik 93
+    400456: macik 94
+    400458: macik 95
+    400460: macik 96
+    400462: macik 97
+    400464: macik 98
+    400466: macik 99
+    400468: nocny stolik
+    400470: pillow
+    400472: pull02
+    400474: pull03
+    400476: pully01
+    400478: pully04
+    400480: pully05
+    400482: pully06
+    400484: skrina#1
+    400486: teddy bear
+    400488: teddy bear 1
+    400490: teddy bear 2
+    400492: wheel01
+    400494: wheel01 1
+    400496: wheel01 2
+    400498: wheel02
+    400500: wheel02 1
+    400502: wheel02 2
+    400504: wheel03
+    400506: wheel03 1
+    400508: wheel03 2
+    400510: wheel04
+    400512: wheel04 1
+    400514: wheel04 2
+    400516: Window_Curtains2
+    400518: wing right
+    400520: wing right 1
+    400522: wing right 2
+    400524: wingleft
+    400526: wingleft 1
+    400528: wingleft 2
+    2300000: 12
+    2300002: 3
+    2300004: 6
+    2300006: 9
+    2300008: bed Anny
+    2300010: bill
+    2300012: bill 1
+    2300014: bill 2
+    2300016: body
+    2300018: body 1
+    2300020: body 2
+    2300022: Book
+    2300024: Book 1
+    2300026: Book 2
+    2300028: Book 3
+    2300030: Book 4
+    2300032: Book 5
+    2300034: Book 6
+    2300036: Book 7
+    2300038: Book 8
+    2300040: Bryce
+    2300042: chain
+    2300044: chain 1
+    2300046: chain 2
+    2300048: Component#1
+    2300050: Component#1 1
+    2300052: Component#2
+    2300054: //RootNode
+    2300056: end
+    2300058: end 1
+    2300060: Group 10
+    2300062: Group 119
+    2300064: Group 12
+    2300066: Group 121
+    2300068: Group 123
+    2300070: Group 126
+    2300072: Group 128
+    2300074: Group 130
+    2300076: Group 132
+    2300078: Group 134
+    2300080: Group 136
+    2300082: Group 138
+    2300084: Group 14
+    2300086: Group 140
+    2300088: Group 142
+    2300090: Group 144
+    2300092: Group 146
+    2300094: Group 148
+    2300096: Group 150
+    2300098: Group 153
+    2300100: Group 155
+    2300102: Group 157
+    2300104: Group 159
+    2300106: Group 16
+    2300108: Group 161
+    2300110: Group 163
+    2300112: Group 165
+    2300114: Group 167
+    2300116: Group 169
+    2300118: Group 171
+    2300120: Group 173
+    2300122: Group 175
+    2300124: Group 177
+    2300126: Group 179
+    2300128: Group 18
+    2300130: Group 2
+    2300132: Group 20
+    2300134: Group 22
+    2300136: Group 24
+    2300138: Group 26
+    2300140: Group 28
+    2300142: Group 30
+    2300144: Group 32
+    2300146: Group 34
+    2300148: Group 36
+    2300150: Group 38
+    2300152: Group 4
+    2300154: Group 40
+    2300156: Group 42
+    2300158: Group 44
+    2300160: Group 46
+    2300162: Group 48
+    2300164: Group 6
+    2300166: Group 8
+    2300168: hodiny
+    2300170: kniznica
+    2300172: koberec
+    2300174: kocky
+    2300176: kvet
+    2300178: kvet 1
+    2300180: kvet#1
+    2300182: kvet#2
+    2300184: kvet#3
+    2300186: kvet#4
+    2300188: kvet#5
+    2300190: kvet#6
+    2300192: kvet#7
+    2300194: macik
+    2300196: macik 1
+    2300198: macik 10
+    2300200: macik 11
+    2300202: macik 12
+    2300204: macik 13
+    2300206: macik 14
+    2300208: macik 15
+    2300210: macik 16
+    2300212: macik 17
+    2300214: macik 18
+    2300216: macik 19
+    2300218: macik 2
+    2300220: macik 20
+    2300222: macik 21
+    2300224: macik 22
+    2300226: macik 23
+    2300228: macik 24
+    2300230: macik 25
+    2300232: macik 26
+    2300234: macik 27
+    2300236: macik 28
+    2300238: macik 29
+    2300240: macik 3
+    2300242: macik 30
+    2300244: macik 31
+    2300246: macik 32
+    2300248: macik 33
+    2300250: macik 34
+    2300252: macik 35
+    2300254: macik 36
+    2300256: macik 37
+    2300258: macik 38
+    2300260: macik 39
+    2300262: macik 4
+    2300264: macik 40
+    2300266: macik 41
+    2300268: macik 42
+    2300270: macik 43
+    2300272: macik 44
+    2300274: macik 45
+    2300276: macik 46
+    2300278: macik 47
+    2300280: macik 48
+    2300282: macik 49
+    2300284: macik 5
+    2300286: macik 50
+    2300288: macik 51
+    2300290: macik 52
+    2300292: macik 53
+    2300294: macik 54
+    2300296: macik 55
+    2300298: macik 56
+    2300300: macik 57
+    2300302: macik 58
+    2300304: macik 59
+    2300306: macik 6
+    2300308: macik 60
+    2300310: macik 61
+    2300312: macik 62
+    2300314: macik 63
+    2300316: macik 64
+    2300318: macik 65
+    2300320: macik 66
+    2300322: macik 67
+    2300324: macik 68
+    2300326: macik 69
+    2300328: macik 7
+    2300330: macik 70
+    2300332: macik 71
+    2300334: macik 72
+    2300336: macik 73
+    2300338: macik 74
+    2300340: macik 75
+    2300342: macik 76
+    2300344: macik 77
+    2300346: macik 78
+    2300348: macik 79
+    2300350: macik 8
+    2300352: macik 80
+    2300354: macik 81
+    2300356: macik 82
+    2300358: macik 83
+    2300360: macik 84
+    2300362: macik 85
+    2300364: macik 86
+    2300366: macik 87
+    2300368: macik 88
+    2300370: macik 89
+    2300372: macik 9
+    2300374: macik 90
+    2300376: macik 91
+    2300378: macik 92
+    2300380: macik 93
+    2300382: macik 94
+    2300384: macik 95
+    2300386: macik 96
+    2300388: macik 97
+    2300390: macik 98
+    2300392: macik 99
+    2300394: nocny stolik
+    2300396: pillow
+    2300398: pull02
+    2300400: pull03
+    2300402: pully01
+    2300404: pully04
+    2300406: pully05
+    2300408: pully06
+    2300410: skrina#1
+    2300412: teddy bear
+    2300414: teddy bear 1
+    2300416: teddy bear 2
+    2300418: wheel01
+    2300420: wheel01 1
+    2300422: wheel01 2
+    2300424: wheel02
+    2300426: wheel02 1
+    2300428: wheel02 2
+    2300430: wheel03
+    2300432: wheel03 1
+    2300434: wheel03 2
+    2300436: wheel04
+    2300438: wheel04 1
+    2300440: wheel04 2
+    2300442: Window_Curtains2
+    2300444: wing right
+    2300446: wing right 1
+    2300448: wing right 2
+    2300450: wingleft
+    2300452: wingleft 1
+    2300454: wingleft 2
+    3300000: 12
+    3300002: 3
+    3300004: 6
+    3300006: 9
+    3300008: bed Anny
+    3300010: bill
+    3300012: bill 1
+    3300014: bill 2
+    3300016: body
+    3300018: body 1
+    3300020: body 2
+    3300022: Book
+    3300024: Book 1
+    3300026: Book 2
+    3300028: Book 3
+    3300030: Book 4
+    3300032: Book 5
+    3300034: Book 6
+    3300036: Book 7
+    3300038: Book 8
+    3300040: Bryce
+    3300042: chain
+    3300044: chain 1
+    3300046: chain 2
+    3300048: Component#1
+    3300050: Component#1 1
+    3300052: Component#2
+    3300054: //RootNode
+    3300056: end
+    3300058: end 1
+    3300060: Group 10
+    3300062: Group 119
+    3300064: Group 12
+    3300066: Group 121
+    3300068: Group 123
+    3300070: Group 126
+    3300072: Group 128
+    3300074: Group 130
+    3300076: Group 132
+    3300078: Group 134
+    3300080: Group 136
+    3300082: Group 138
+    3300084: Group 14
+    3300086: Group 140
+    3300088: Group 142
+    3300090: Group 144
+    3300092: Group 146
+    3300094: Group 148
+    3300096: Group 150
+    3300098: Group 153
+    3300100: Group 155
+    3300102: Group 157
+    3300104: Group 159
+    3300106: Group 16
+    3300108: Group 161
+    3300110: Group 163
+    3300112: Group 165
+    3300114: Group 167
+    3300116: Group 169
+    3300118: Group 171
+    3300120: Group 173
+    3300122: Group 175
+    3300124: Group 177
+    3300126: Group 179
+    3300128: Group 18
+    3300130: Group 2
+    3300132: Group 20
+    3300134: Group 22
+    3300136: Group 24
+    3300138: Group 26
+    3300140: Group 28
+    3300142: Group 30
+    3300144: Group 32
+    3300146: Group 34
+    3300148: Group 36
+    3300150: Group 38
+    3300152: Group 4
+    3300154: Group 40
+    3300156: Group 42
+    3300158: Group 44
+    3300160: Group 46
+    3300162: Group 48
+    3300164: Group 6
+    3300166: Group 8
+    3300168: hodiny
+    3300170: kniznica
+    3300172: koberec
+    3300174: kocky
+    3300176: kvet
+    3300178: kvet 1
+    3300180: kvet#1
+    3300182: kvet#2
+    3300184: kvet#3
+    3300186: kvet#4
+    3300188: kvet#5
+    3300190: kvet#6
+    3300192: kvet#7
+    3300194: macik
+    3300196: macik 1
+    3300198: macik 10
+    3300200: macik 11
+    3300202: macik 12
+    3300204: macik 13
+    3300206: macik 14
+    3300208: macik 15
+    3300210: macik 16
+    3300212: macik 17
+    3300214: macik 18
+    3300216: macik 19
+    3300218: macik 2
+    3300220: macik 20
+    3300222: macik 21
+    3300224: macik 22
+    3300226: macik 23
+    3300228: macik 24
+    3300230: macik 25
+    3300232: macik 26
+    3300234: macik 27
+    3300236: macik 28
+    3300238: macik 29
+    3300240: macik 3
+    3300242: macik 30
+    3300244: macik 31
+    3300246: macik 32
+    3300248: macik 33
+    3300250: macik 34
+    3300252: macik 35
+    3300254: macik 36
+    3300256: macik 37
+    3300258: macik 38
+    3300260: macik 39
+    3300262: macik 4
+    3300264: macik 40
+    3300266: macik 41
+    3300268: macik 42
+    3300270: macik 43
+    3300272: macik 44
+    3300274: macik 45
+    3300276: macik 46
+    3300278: macik 47
+    3300280: macik 48
+    3300282: macik 49
+    3300284: macik 5
+    3300286: macik 50
+    3300288: macik 51
+    3300290: macik 52
+    3300292: macik 53
+    3300294: macik 54
+    3300296: macik 55
+    3300298: macik 56
+    3300300: macik 57
+    3300302: macik 58
+    3300304: macik 59
+    3300306: macik 6
+    3300308: macik 60
+    3300310: macik 61
+    3300312: macik 62
+    3300314: macik 63
+    3300316: macik 64
+    3300318: macik 65
+    3300320: macik 66
+    3300322: macik 67
+    3300324: macik 68
+    3300326: macik 69
+    3300328: macik 7
+    3300330: macik 70
+    3300332: macik 71
+    3300334: macik 72
+    3300336: macik 73
+    3300338: macik 74
+    3300340: macik 75
+    3300342: macik 76
+    3300344: macik 77
+    3300346: macik 78
+    3300348: macik 79
+    3300350: macik 8
+    3300352: macik 80
+    3300354: macik 81
+    3300356: macik 82
+    3300358: macik 83
+    3300360: macik 84
+    3300362: macik 85
+    3300364: macik 86
+    3300366: macik 87
+    3300368: macik 88
+    3300370: macik 89
+    3300372: macik 9
+    3300374: macik 90
+    3300376: macik 91
+    3300378: macik 92
+    3300380: macik 93
+    3300382: macik 94
+    3300384: macik 95
+    3300386: macik 96
+    3300388: macik 97
+    3300390: macik 98
+    3300392: macik 99
+    3300394: nocny stolik
+    3300396: pillow
+    3300398: pull02
+    3300400: pull03
+    3300402: pully01
+    3300404: pully04
+    3300406: pully05
+    3300408: pully06
+    3300410: skrina#1
+    3300412: teddy bear
+    3300414: teddy bear 1
+    3300416: teddy bear 2
+    3300418: wheel01
+    3300420: wheel01 1
+    3300422: wheel01 2
+    3300424: wheel02
+    3300426: wheel02 1
+    3300428: wheel02 2
+    3300430: wheel03
+    3300432: wheel03 1
+    3300434: wheel03 2
+    3300436: wheel04
+    3300438: wheel04 1
+    3300440: wheel04 2
+    3300442: Window_Curtains2
+    3300444: wing right
+    3300446: wing right 1
+    3300448: wing right 2
+    3300450: wingleft
+    3300452: wingleft 1
+    3300454: wingleft 2
+    4300000: Mesh detska+izba+oranzova
+    4300002: Mesh Group 2
+    4300004: Mesh Group 4
+    4300006: Mesh Group 8
+    4300008: Mesh Group 12
+    4300010: Mesh Group 20
+    4300012: Mesh Group 28
+    4300014: Mesh Group 30
+    4300016: Mesh Group 32
+    4300018: Mesh Group 34
+    4300020: Mesh Group 36
+    4300022: Mesh Group 38
+    4300024: Mesh Group 40
+    4300026: Mesh Group 42
+    4300028: Mesh Group 44
+    4300030: Mesh Group 46
+    4300032: Mesh Group 48
+    4300034: Mesh pully05
+    4300036: Mesh wing right
+    4300038: Mesh wheel01
+    4300040: Mesh body
+    4300042: Mesh chain
+    4300044: Mesh bill
+    4300046: Mesh wheel01
+    4300048: Mesh wingleft
+    4300050: Mesh body
+    4300052: Mesh bill
+    4300054: Mesh chain
+    4300056: Mesh pully01
+    4300058: Mesh Group 119
+    4300060: Mesh Group 121
+    4300062: Mesh Group 123
+    4300064: Mesh Group 126
+    4300066: Mesh Group 128
+    4300068: Mesh Group 130
+    4300070: Mesh Group 132
+    4300072: Mesh Group 134
+    4300074: Mesh Group 136
+    4300076: Mesh Group 138
+    4300078: Mesh Group 142
+    4300080: Mesh Group 144
+    4300082: Mesh Group 146
+    4300084: Mesh Group 148
+    4300086: Mesh Group 150
+    4300088: Mesh Group 179
+    4300090: Mesh nocny stolik
+    4300092: Mesh bed Anny
+    4300094: Mesh kniznica
+    4300096: Mesh skrina#1
+    4300098: Mesh macik
+    4300100: Mesh pillow
+    4300102: Mesh kocky
+    4300104: Mesh Window_Curtains2
+    4300106: Mesh Component#1
+    4300108: Mesh end
+    4300110: Mesh teddy bear
+    4300112: Mesh Component#2
+    4300114: Mesh Bryce
+    4300116: Mesh Book
+    4300118: Mesh Book
+    4300120: Mesh hodiny
+    4300122: Mesh 12
+    4300124: Mesh 6
+    4300126: Mesh 3
+    4300128: Mesh 9
+    4300130: Mesh koberec
+    4300132: Mesh kvet#6
+    4300134: Mesh kvet#2
+    4300136: Mesh kvet
+    4300138: Mesh kvet#1
+    4300140: Mesh kvet#3
+    4300142: Mesh kvet#5
+    4300144: Mesh kvet#4
+    4300146: Mesh kvet#7
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

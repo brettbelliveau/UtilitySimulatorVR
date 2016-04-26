@@ -1,0 +1,126 @@
+fileFormatVersion: 2
+guid: f185ace222abbf244a07615b659a24b9
+timeCreated: 1461694746
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 95ef13cd0503ac49225ae2b00220e4a4
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 0.63697547, y: 0.40856257, z: -0.53500646}
+      lookAt: {x: 0.079788566, y: -0.43718848, z: 0.28476062}
+      up: {x: -0.36487418, y: 0.76071393, z: 0.536825}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: '1 2 3 4 5 6 7 8 '
+    100002: 9:43
+    100004: Double-Digit Tim
+    100006: //RootNode
+    100008: pm
+    100010: SSD Inc.#2
+    100012: Start|Stop
+    400000: '1 2 3 4 5 6 7 8 '
+    400002: 9:43
+    400004: Double-Digit Tim
+    400006: //RootNode
+    400008: pm
+    400010: SSD Inc.#2
+    400012: Start|Stop
+    2300000: '1 2 3 4 5 6 7 8 '
+    2300002: 9:43
+    2300004: Double-Digit Tim
+    2300006: //RootNode
+    2300008: pm
+    2300010: SSD Inc.#2
+    2300012: Start|Stop
+    3300000: '1 2 3 4 5 6 7 8 '
+    3300002: 9:43
+    3300004: Double-Digit Tim
+    3300006: //RootNode
+    3300008: pm
+    3300010: SSD Inc.#2
+    3300012: Start|Stop
+    4300000: Mesh Microwave
+    4300002: Mesh SSD Inc.#2
+    4300004: Mesh 9:43
+    4300006: 'Mesh 1 2 3 4 5 6 7 8 '
+    4300008: Mesh Double-Digit Tim
+    4300010: Mesh Start|Stop
+    4300012: Mesh pm
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

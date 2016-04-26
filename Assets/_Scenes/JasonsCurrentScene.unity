@@ -946,6 +946,7 @@ GameObject:
   - 4: {fileID: 56509490}
   - 33: {fileID: 56509492}
   - 23: {fileID: 56509491}
+  - 64: {fileID: 56509493}
   m_Layer: 0
   m_Name: Air Hockey_Quarter 1
   m_TagString: Untagged
@@ -962,7 +963,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0.5011546, y: 0.5588, z: 0.69590276}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_Children: []
   m_Father: {fileID: 757327550}
   m_RootOrder: 1
@@ -1004,6 +1005,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 56509489}
+  m_Mesh: {fileID: 4300028, guid: ea28429ecc52d436db9ef9c3ce3abb43, type: 3}
+--- !u!64 &56509493
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 56509489}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300028, guid: ea28429ecc52d436db9ef9c3ce3abb43, type: 3}
 --- !u!1 &59963366
 GameObject:
@@ -5275,6 +5288,7 @@ GameObject:
   - 4: {fileID: 299252510}
   - 33: {fileID: 299252512}
   - 23: {fileID: 299252511}
+  - 64: {fileID: 299252513}
   m_Layer: 0
   m_Name: Pool table 53 x 91
   m_TagString: Untagged
@@ -5333,6 +5347,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 299252509}
+  m_Mesh: {fileID: 4300006, guid: ea28429ecc52d436db9ef9c3ce3abb43, type: 3}
+--- !u!64 &299252513
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 299252509}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300006, guid: ea28429ecc52d436db9ef9c3ce3abb43, type: 3}
 --- !u!1001 &299691148
 Prefab:
@@ -8124,6 +8150,7 @@ GameObject:
   - 4: {fileID: 452178593}
   - 33: {fileID: 452178595}
   - 23: {fileID: 452178594}
+  - 64: {fileID: 452178596}
   m_Layer: 0
   m_Name: Air Hockey_Quarter
   m_TagString: Untagged
@@ -8140,7 +8167,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.5011546, y: 0.5588, z: 0.69590276}
   m_LocalScale: {x: -1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_Children: []
   m_Father: {fileID: 757327550}
   m_RootOrder: 0
@@ -8182,6 +8209,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 452178592}
+  m_Mesh: {fileID: 4300028, guid: ea28429ecc52d436db9ef9c3ce3abb43, type: 3}
+--- !u!64 &452178596
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 452178592}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300028, guid: ea28429ecc52d436db9ef9c3ce3abb43, type: 3}
 --- !u!1 &456842969
 GameObject:
@@ -15399,6 +15438,7 @@ GameObject:
   - 4: {fileID: 916465908}
   - 33: {fileID: 916465910}
   - 23: {fileID: 916465909}
+  - 64: {fileID: 916465911}
   m_Layer: 0
   m_Name: Air Hockey_Quarter 3
   m_TagString: Untagged
@@ -15415,7 +15455,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0.5011546, y: 0.5588, z: 0.69590276}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_Children: []
   m_Father: {fileID: 757327550}
   m_RootOrder: 3
@@ -15457,6 +15497,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 916465907}
+  m_Mesh: {fileID: 4300028, guid: ea28429ecc52d436db9ef9c3ce3abb43, type: 3}
+--- !u!64 &916465911
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 916465907}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300028, guid: ea28429ecc52d436db9ef9c3ce3abb43, type: 3}
 --- !u!1 &917755424 stripped
 GameObject:
@@ -29241,6 +29293,7 @@ GameObject:
   - 4: {fileID: 1836263134}
   - 33: {fileID: 1836263136}
   - 23: {fileID: 1836263135}
+  - 64: {fileID: 1836263137}
   m_Layer: 0
   m_Name: Air Hockey_Quarter 2
   m_TagString: Untagged
@@ -29257,7 +29310,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.5011546, y: 0.5588, z: 0.69590276}
   m_LocalScale: {x: -1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_Children: []
   m_Father: {fileID: 757327550}
   m_RootOrder: 2
@@ -29299,6 +29352,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1836263133}
+  m_Mesh: {fileID: 4300028, guid: ea28429ecc52d436db9ef9c3ce3abb43, type: 3}
+--- !u!64 &1836263137
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1836263133}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300028, guid: ea28429ecc52d436db9ef9c3ce3abb43, type: 3}
 --- !u!1 &1839592992
 GameObject:

@@ -34,6 +34,7 @@ namespace VRStandardAssets.Utils
         [SerializeField] private bool m_LockMovementOnClick;                // Stop movement after button is clicked and until bar is filled.
         [SerializeField] private GameObject text;                           // Any text on the panel/slider
         [SerializeField] private SelectionSlider m_PairedSlider;
+        [SerializeField] private AudioClip m_OnClickedClip;
 
         /* Fields used for money dispenser */
 
@@ -54,12 +55,11 @@ namespace VRStandardAssets.Utils
         private int fontSize;
         private float walkSpeed;
         private float runSpeed;
+        public bool handWashed;
 
         private void Start ()
         {
-            fontSize = text.GetComponent<Text>().fontSize;
             inProgress = false;
-
             fps = FPSController.GetComponent<FirstPersonController>();
             walkSpeed = fps.m_WalkSpeed;
             runSpeed = fps.m_RunSpeed;
@@ -128,6 +128,11 @@ namespace VRStandardAssets.Utils
 
 		public IEnumerator FillBar ()
 		{
+            if (m_Duration > m_PairedSlider.m_Duration)
+                handWashed = true;
+            else
+                handWashed = false;
+
             inProgress = true;
             // Disable the bar so user cannot repeatedly press it
             if (m_DisableOnClick) { 
@@ -139,8 +144,12 @@ namespace VRStandardAssets.Utils
                 fps.m_WalkSpeed = fps.m_RunSpeed = 0;
             }
 
-            m_Audio.clip = m_OnFilledClip;
-            m_Audio.Play();
+
+
+            AudioSource audio = gameObject.GetComponent<AudioSource>();
+            audio.loop = true;
+            audio.clip = m_OnClickedClip;
+            audio.Play();
 
             // When the bar starts to fill, reset the timer.
             m_Timer = 0f;
@@ -173,6 +182,9 @@ namespace VRStandardAssets.Utils
 				yield break;
 			}
 
+            audio.Pause();
+            audio.loop = false;
+
 			// Play the clip for when the bar is filled.
 			m_Audio.clip = m_OnFilledClip;
 			m_Audio.Play();
@@ -202,6 +214,10 @@ namespace VRStandardAssets.Utils
             inProgress = true;
             SetSliderValue(1);
             text.GetComponent<Text>().text = "\n Activity \n Complete";
+            if (m_Duration > m_PairedSlider.m_Duration)
+                handWashed = false;
+            else
+                handWashed = true;
         }
 
         private void HandleDown ()

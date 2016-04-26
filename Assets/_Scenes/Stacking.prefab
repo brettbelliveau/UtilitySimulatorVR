@@ -566,9 +566,9 @@ MonoBehaviour:
   y: 0
   oz: 0
   z: 0
-  moneylimit: 1000
+  moneylimit: 5000
   pmoney: 0
-  CashConstant: 50
+  CashConstant: 10
 --- !u!114 &11493848
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -583,7 +583,7 @@ MonoBehaviour:
   rotate: {fileID: 0}
   simpad: {fileID: 11484146}
   FPSController: {fileID: 0}
-  m_Duration: 10
+  m_Duration: 5
   m_Audio: {fileID: 8208464}
   m_OnOverClip: {fileID: 8300000, guid: 2bd66143af0efeb4e884e4273d2ed956, type: 3}
   m_OnFilledClip: {fileID: 8300000, guid: 9f9d2c4dc4b50704bbf83a0e84e35936, type: 3}

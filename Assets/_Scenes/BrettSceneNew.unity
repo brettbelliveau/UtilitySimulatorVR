@@ -5557,6 +5557,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioFile: {fileID: 0}
+  isWalking: 0
+  clickedSomething: 0
+  waitTime: 0
   speed: 5
   walkWhenTriggered: 1
   walkWhenLookDown: 0

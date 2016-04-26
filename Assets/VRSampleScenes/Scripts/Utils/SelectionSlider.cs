@@ -56,6 +56,7 @@ namespace VRStandardAssets.Utils
         private float walkSpeed;
         private float runSpeed;
         public bool handWashed;
+        public bool hasRun;
 
         private void Start ()
         {
@@ -63,6 +64,7 @@ namespace VRStandardAssets.Utils
             fps = FPSController.GetComponent<FirstPersonController>();
             walkSpeed = fps.m_WalkSpeed;
             runSpeed = fps.m_RunSpeed;
+            hasRun = false;
         }
 
 		private void OnEnable ()
@@ -128,6 +130,8 @@ namespace VRStandardAssets.Utils
 
 		public IEnumerator FillBar ()
 		{
+            hasRun = true;
+
             if (m_Duration > m_PairedSlider.m_Duration)
                 handWashed = true;
             else
@@ -142,9 +146,8 @@ namespace VRStandardAssets.Utils
             // Disable movement until bar has been filled
             if (m_LockMovementOnClick) {
                 fps.m_WalkSpeed = fps.m_RunSpeed = 0;
+                walkingScript.setCanWalk(false);
             }
-
-
 
             AudioSource audio = gameObject.GetComponent<AudioSource>();
             audio.loop = true;
@@ -157,6 +160,9 @@ namespace VRStandardAssets.Utils
 
             // The amount of time it takes to fill is either the duration set in the inspector, or the duration of the radial.
             float fillTime = m_SelectionRadial != null ? m_SelectionRadial.SelectionDuration : m_Duration;
+
+            //Will force the autowalk to pause for the duration
+            walkingScript.waitTime = (int) m_Duration;
 
 			// Until the timer is greater than the fill time...
 			while (m_Timer < fillTime)
@@ -182,6 +188,7 @@ namespace VRStandardAssets.Utils
 				yield break;
 			}
 
+            inProgress = false;
             audio.Pause();
             audio.loop = false;
 
@@ -192,6 +199,7 @@ namespace VRStandardAssets.Utils
             text.GetComponent<Text>().text = "\n Activity \n Complete";
 
             //Set speeds back to normal
+            walkingScript.setCanWalk(true);
             fps.m_WalkSpeed = walkSpeed;
             fps.m_RunSpeed = runSpeed;      
         }
@@ -211,21 +219,23 @@ namespace VRStandardAssets.Utils
         //To be called only by the paired slider
         public void InstantFill ()
         {
-            inProgress = true;
+            hasRun = inProgress = true;
+            
             SetSliderValue(1);
             text.GetComponent<Text>().text = "\n Activity \n Complete";
             if (m_Duration > m_PairedSlider.m_Duration)
                 handWashed = false;
             else
                 handWashed = true;
+
+            inProgress = false;
         }
 
         private void HandleDown ()
 		{
 			// If the user is looking at the bar start the FillBar coroutine and store a reference to it.
-			if (m_GazeOver && !inProgress) {
+			if (m_GazeOver && !hasRun) {
 				m_FillBarRoutine = StartCoroutine(FillBar());
-                Debug.Log("Starting");
 
                 if (m_PairedSlider != null)
                     m_PairedSlider.InstantFill();
@@ -255,7 +265,7 @@ namespace VRStandardAssets.Utils
 		{
 			m_GazeOver = false;
 			if (walkingScript != null) {
-				walkingScript.setCanWalk(true);
+                walkingScript.setCanWalk(true);
 			}
 		}
 

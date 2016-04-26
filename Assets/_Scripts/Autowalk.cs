@@ -20,10 +20,14 @@ public class Autowalk : MonoBehaviour
 	private const int RIGHT_ANGLE = 90; 
 	
 	// This variable determinates if the player will move or not 
-	private bool isWalking = false;
-	
+	public bool isWalking = false;
+
+    public bool clickedSomething = false;
+
 	CardboardHead head = null;
-	
+
+    public int waitTime = 0;
+
 	//This is the variable for the player speed
 	[Tooltip("With this speed the player will move.")]
 	public float speed;
@@ -55,6 +59,15 @@ public class Autowalk : MonoBehaviour
 	
 	void Update () 
 	{
+        if (waitTime > 0)
+        {
+            StartCoroutine(WaitSeconds(waitTime));
+        }
+        if (clickedSomething)
+        {
+            StartCoroutine(Wait());
+        }
+
 		if (!canToggleWalking) {
 			if (isWalking) {
 				walk();
@@ -63,14 +76,14 @@ public class Autowalk : MonoBehaviour
 		}
 
         // Walk when the Cardboard Trigger is used 
-        if (walkWhenTriggered && !walkWhenLookDown && !isWalking && Cardboard.SDK.CardboardTriggered) 
+        if (walkWhenTriggered && !walkWhenLookDown && !isWalking && Cardboard.SDK.CardboardTriggered && !clickedSomething) 
 		{
 			isWalking = true;
 			if (AudioFile != null) {
 				AudioFile.Play ();
 			}
 		} 
-		else if (walkWhenTriggered && !walkWhenLookDown && isWalking && Cardboard.SDK.CardboardTriggered) 
+		else if (walkWhenTriggered && !walkWhenLookDown && isWalking && Cardboard.SDK.CardboardTriggered && !clickedSomething) 
 		{
 			isWalking = false;
 			if (AudioFile != null) {
@@ -113,10 +126,26 @@ public class Autowalk : MonoBehaviour
 			walk();
         }
 		
-		if(freezeYPosition)
+		if (freezeYPosition)
 		{
 			transform.position = new Vector3(transform.position.x, yOffset, transform.position.z);
 		}
+    }
+
+    private IEnumerator Wait()
+    {
+        yield return 0;
+        clickedSomething = false;
+        canToggleWalking = true;
+        isWalking = false;
+    }
+
+    private IEnumerator WaitSeconds(int duration)
+    {
+        yield return new WaitForSeconds(duration);
+        canToggleWalking = true;
+        isWalking = false;
+        waitTime = 0;
     }
 
 	public void walk() {

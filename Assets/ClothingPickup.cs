@@ -11,6 +11,7 @@ namespace VRStandardAssets.Utils
         [SerializeField] private Autowalk walkingScript;
         [SerializeField] private SelectionRadial m_SelectionRadial;         // Optional reference to the SelectionRadial, if non-null the duration of the SelectionRadial will be used instead.
         [SerializeField] private Collider m_Collider;                       // Optional reference to the Collider used to detect the user's gaze, turned off when the UIFader is not visible.
+        [SerializeField] private Autowalk walkScript;
 
         private FirstPersonController fps;
         private bool m_GazeOver;                                            // Whether the user is currently looking at the bar.
@@ -46,26 +47,27 @@ namespace VRStandardAssets.Utils
             {
                 fps.PickUpClothing();
                 gameObject.SetActive(false);
+                walkScript.clickedSomething = true;
             }
-        }
 
+        }
 
         private void HandleUp()
         { }
 
-        private void HandleClick()
-        {
-            fps.PickUpClothing();
-            enabled = false;
-        }
+//        private void HandleClick()
+//        {
+//            fps.PickUpClothing();
+//            enabled = false;
+//        }
 
         private void HandleOver()
         {
             // The user is now looking at the bar.
             m_GazeOver = true;
-            if (walkingScript != null)
+            if (walkScript != null)
             {
-                walkingScript.setCanWalk(false);
+                walkScript.setCanWalk(false);
             }
         }
 
@@ -73,9 +75,9 @@ namespace VRStandardAssets.Utils
         private void HandleOut()
         {
             m_GazeOver = false;
-            if (walkingScript != null)
+            if (walkScript != null)
             {
-                walkingScript.setCanWalk(true);
+                walkScript.setCanWalk(true);
             }
         }
 

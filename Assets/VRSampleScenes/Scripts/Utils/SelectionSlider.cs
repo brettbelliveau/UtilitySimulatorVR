@@ -188,6 +188,7 @@ namespace VRStandardAssets.Utils
 				yield break;
 			}
 
+            walkingScript.waitTime = 0;
             inProgress = false;
             audio.Pause();
             audio.loop = false;
@@ -255,9 +256,12 @@ namespace VRStandardAssets.Utils
 				walkingScript.setCanWalk(false);
 			}
 
-			// Play the clip appropriate for when the user starts looking at the bar.
-			m_Audio.clip = m_OnOverClip;
-			m_Audio.Play();
+            // Play the clip appropriate for when the user starts looking at the bar.
+            if (!inProgress)
+            {
+                m_Audio.clip = m_OnOverClip;
+                m_Audio.Play();
+            }
 		}
 
 

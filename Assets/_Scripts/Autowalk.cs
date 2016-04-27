@@ -61,7 +61,7 @@ public class Autowalk : MonoBehaviour
 	{
         if (waitTime > 0)
         {
-            StartCoroutine(WaitSeconds(waitTime));
+            return;
         }
         if (clickedSomething)
         {
@@ -142,9 +142,10 @@ public class Autowalk : MonoBehaviour
 
     private IEnumerator WaitSeconds(int duration)
     {
+        canToggleWalking = false;
+        yield return new WaitForSeconds(duration);
         canToggleWalking = true;
         isWalking = false;
-        yield return new WaitForSeconds(duration);
         waitTime = 0;
     }
 

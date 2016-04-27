@@ -493,15 +493,11 @@ Prefab:
       objectReference: {fileID: 2027987359}
     - target: {fileID: 22431522, guid: 14230eefac4af0e4896c763b9e95b2d4, type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22431522, guid: 14230eefac4af0e4896c763b9e95b2d4, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 422150, guid: 14230eefac4af0e4896c763b9e95b2d4, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -1.392
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 14230eefac4af0e4896c763b9e95b2d4, type: 2}
@@ -2031,6 +2027,8 @@ MonoBehaviour:
   text: {fileID: 1872077701}
   m_PairedSlider: {fileID: 991686577}
   m_OnClickedClip: {fileID: 8300000, guid: 5045140e06f86b9479707ca09b3012c8, type: 3}
+  m_PreItems: []
+  m_PostItems: []
   walkingScript: {fileID: 939395672}
   handWashed: 0
   hasRun: 0
@@ -3330,7 +3328,6 @@ Transform:
   m_Children:
   - {fileID: 380426159}
   - {fileID: 1530780790}
-  - {fileID: 1138154460}
   m_Father: {fileID: 939395676}
   m_RootOrder: 1
 --- !u!114 &595860545
@@ -3962,7 +3959,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 1924915680}
   m_InteractiveItem: {fileID: 713632890}
-  objects: 100
+  objects: 200
   LightArr:
   - {fileID: 0}
   - {fileID: 0}
@@ -5858,6 +5855,8 @@ MonoBehaviour:
   text: {fileID: 1220289704}
   m_PairedSlider: {fileID: 371428945}
   m_OnClickedClip: {fileID: 8300000, guid: 5045140e06f86b9479707ca09b3012c8, type: 3}
+  m_PreItems: []
+  m_PostItems: []
   walkingScript: {fileID: 939395672}
   handWashed: 0
   hasRun: 0
@@ -6271,6 +6270,8 @@ MonoBehaviour:
   text: {fileID: 0}
   m_PairedSlider: {fileID: 0}
   m_OnClickedClip: {fileID: 0}
+  m_PreItems: []
+  m_PostItems: []
   walkingScript: {fileID: 0}
   handWashed: 0
   hasRun: 0
@@ -6690,6 +6691,8 @@ MonoBehaviour:
   text: {fileID: 0}
   m_PairedSlider: {fileID: 0}
   m_OnClickedClip: {fileID: 0}
+  m_PreItems: []
+  m_PostItems: []
   walkingScript: {fileID: 0}
   handWashed: 0
   hasRun: 0
@@ -7535,33 +7538,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07d9cddd34a2d4a41be7bd1599af75de, type: 3}
   m_IsPrefabParent: 0
---- !u!1 &1138154459
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1138154460}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1138154460
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1138154459}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 595860544}
-  m_RootOrder: 2
 --- !u!1 &1142213333 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100016, guid: afd3c02f207914ec29966ff8f1f0afbb, type: 3}
@@ -9168,6 +9144,8 @@ MonoBehaviour:
   text: {fileID: 0}
   m_PairedSlider: {fileID: 0}
   m_OnClickedClip: {fileID: 0}
+  m_PreItems: []
+  m_PostItems: []
   walkingScript: {fileID: 0}
   handWashed: 0
   hasRun: 0
@@ -12109,6 +12087,8 @@ MonoBehaviour:
   text: {fileID: 1387411365}
   m_PairedSlider: {fileID: 1856533674}
   m_OnClickedClip: {fileID: 8300000, guid: 52f1bd4da0a720c45b2fec8863d3404f, type: 3}
+  m_PreItems: []
+  m_PostItems: []
   walkingScript: {fileID: 939395672}
   handWashed: 0
   hasRun: 0
@@ -12554,6 +12534,8 @@ MonoBehaviour:
   text: {fileID: 0}
   m_PairedSlider: {fileID: 0}
   m_OnClickedClip: {fileID: 0}
+  m_PreItems: []
+  m_PostItems: []
   walkingScript: {fileID: 0}
   handWashed: 0
   hasRun: 0
@@ -12817,6 +12799,8 @@ MonoBehaviour:
   text: {fileID: 1256348829}
   m_PairedSlider: {fileID: 1793430394}
   m_OnClickedClip: {fileID: 8300000, guid: 52f1bd4da0a720c45b2fec8863d3404f, type: 3}
+  m_PreItems: []
+  m_PostItems: []
   walkingScript: {fileID: 939395672}
   handWashed: 0
   hasRun: 0
@@ -13259,7 +13243,7 @@ MonoBehaviour:
   kWh: 0
   jouUsed: 0
   bulbs: 0
-  bulbconstant: 100
+  bulbconstant: 60
   tv: 0
   dryer: 0
   washer: 0
@@ -13320,7 +13304,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
 --- !u!1001 &1936644354
 Prefab:
   m_ObjectHideFlags: 0
@@ -14352,7 +14336,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 424444, guid: 88e8a15a0c1cb904e869de2921cc5bac, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 88e8a15a0c1cb904e869de2921cc5bac, type: 2}

@@ -15,6 +15,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &113942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 419518}
+  - 114: {fileID: 11480458}
+  m_Layer: 0
+  m_Name: GreenHouseGas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &120038
 GameObject:
   m_ObjectHideFlags: 1
@@ -149,7 +165,6 @@ GameObject:
   - 225: {fileID: 22575674}
   - 82: {fileID: 8208464}
   - 114: {fileID: 11456824}
-  - 114: {fileID: 11416570}
   - 114: {fileID: 11493848}
   m_Layer: 5
   m_Name: SimStartPanel
@@ -202,8 +217,21 @@ Transform:
   - {fileID: 22488100}
   - {fileID: 406874}
   - {fileID: 436992}
+  - {fileID: 419518}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!4 &419518
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 113942}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.7279987, y: 0.94000006, z: 0.39799976}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 410578}
+  m_RootOrder: 4
 --- !u!4 &422150
 Transform:
   m_ObjectHideFlags: 1
@@ -211,7 +239,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 196812}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.728, y: 0.94000006, z: 0.398}
+  m_LocalPosition: {x: 2.728, y: 0.94000006, z: -1.392}
   m_LocalScale: {x: 0.1, y: 0.08, z: 0.2}
   m_Children: []
   m_Father: {fileID: 410578}
@@ -497,20 +525,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &11416570
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 181444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3a7329031238264e830e72843be00fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  other: {fileID: 0}
-  m_InteractiveItem: {fileID: 11438274}
-  type: 3
 --- !u!114 &11426738
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -619,6 +633,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &11480458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 113942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbd5eea4abceed04cbf1268782f4ea56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalkwh: 0
 --- !u!114 &11484146
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -642,7 +668,7 @@ MonoBehaviour:
   z: 8.13
   moneylimit: 12787.993
   pmoney: 12800
-  CashConstant: 100
+  CashConstant: 10
 --- !u!114 &11493848
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -654,6 +680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 746a5753b306c2c4f9190eea597c5581, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Gas: {fileID: 11480458}
   Starter: {fileID: 0}
   rotate: {fileID: 0}
   simpad: {fileID: 11484146}

@@ -9,6 +9,7 @@ namespace VRStandardAssets.Utils
 {
     public class SimControl : MonoBehaviour
     {
+        public GasEmissions Gas;
         public EnergyTrackingScript Starter;
         public DayNightController rotate;
         public FatStacks simpad;
@@ -238,9 +239,10 @@ namespace VRStandardAssets.Utils
             if (m_GazeOver && !inProgress && laundrydone && dishesdone)
             {
                 Starter.Stop();
-                simpad.moneylimit = ((Starter.kWhcalc() * DollarsPerKwh) / Starter.time) * 409968000f; //dollars spent over the time of th simulation * 13years in seconds.
-                simpad.fillrate = (m_Duration/(simpad.moneylimit / simpad.CashConstant))*2.5f;
+                simpad.moneylimit = ((Starter.kWhcalc() * DollarsPerKwh) / Starter.time) * 409968000f/2; //dollars spent over the time of th simulation * 13years in seconds.
+                simpad.fillrate = (m_Duration/(simpad.moneylimit / simpad.CashConstant));
                 m_FillBarRoutine = StartCoroutine(FillBar());
+                Gas.totalkwh = (Starter.kWhcalc() / Starter.time) * 409968000f;
                 Debug.Log("Starting");
                 
                 rotate.run = true;

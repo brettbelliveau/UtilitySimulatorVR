@@ -938,7 +938,9 @@ MonoBehaviour:
   m_LockMovementOnClick: 1
   text: {fileID: 0}
   m_PairedSlider: {fileID: 0}
+  m_OnClickedClip: {fileID: 0}
   walkingScript: {fileID: 0}
+  handWashed: 0
 --- !u!224 &371428946
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3121,7 +3123,9 @@ MonoBehaviour:
   m_LockMovementOnClick: 1
   text: {fileID: 0}
   m_PairedSlider: {fileID: 0}
+  m_OnClickedClip: {fileID: 0}
   walkingScript: {fileID: 0}
+  handWashed: 0
 --- !u!65 &991686578
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3503,7 +3507,9 @@ MonoBehaviour:
   m_LockMovementOnClick: 0
   text: {fileID: 0}
   m_PairedSlider: {fileID: 0}
+  m_OnClickedClip: {fileID: 0}
   walkingScript: {fileID: 0}
+  handWashed: 0
 --- !u!65 &1026657224
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3803,7 +3809,9 @@ MonoBehaviour:
   m_LockMovementOnClick: 0
   text: {fileID: 0}
   m_PairedSlider: {fileID: 0}
+  m_OnClickedClip: {fileID: 0}
   walkingScript: {fileID: 0}
+  handWashed: 0
 --- !u!65 &1046538223
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4626,7 +4634,9 @@ MonoBehaviour:
   m_LockMovementOnClick: 0
   text: {fileID: 0}
   m_PairedSlider: {fileID: 0}
+  m_OnClickedClip: {fileID: 0}
   walkingScript: {fileID: 0}
+  handWashed: 0
 --- !u!65 &1394244710
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4798,6 +4808,10 @@ Prefab:
     - target: {fileID: 127610, guid: 14230eefac4af0e4896c763b9e95b2d4, type: 2}
       propertyPath: m_Name
       value: StacksonStacks
+      objectReference: {fileID: 0}
+    - target: {fileID: 22431522, guid: 14230eefac4af0e4896c763b9e95b2d4, type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 14230eefac4af0e4896c763b9e95b2d4, type: 2}
@@ -5928,7 +5942,9 @@ MonoBehaviour:
   m_LockMovementOnClick: 0
   text: {fileID: 0}
   m_PairedSlider: {fileID: 0}
+  m_OnClickedClip: {fileID: 0}
   walkingScript: {fileID: 0}
+  handWashed: 0
 --- !u!65 &1847062297
 BoxCollider:
   m_ObjectHideFlags: 0

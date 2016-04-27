@@ -2740,7 +2740,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FPSController: {fileID: 939395671}
-  m_Duration: 5
+  m_Duration: 15
   m_Audio: {fileID: 371428949}
   m_OnOverClip: {fileID: 8300000, guid: 2bd66143af0efeb4e884e4273d2ed956, type: 3}
   m_OnFilledClip: {fileID: 8300000, guid: 9f9d2c4dc4b50704bbf83a0e84e35936, type: 3}
@@ -7778,7 +7778,7 @@ MonoBehaviour:
   isWalking: 0
   clickedSomething: 0
   waitTime: 0
-  speed: 5
+  speed: 2.5
   walkWhenTriggered: 1
   walkWhenLookDown: 0
   thresholdAngle: 0
@@ -8086,7 +8086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FPSController: {fileID: 939395671}
-  m_Duration: 1
+  m_Duration: 5
   m_Audio: {fileID: 991686575}
   m_OnOverClip: {fileID: 8300000, guid: 2bd66143af0efeb4e884e4273d2ed956, type: 3}
   m_OnFilledClip: {fileID: 8300000, guid: 9f9d2c4dc4b50704bbf83a0e84e35936, type: 3}
@@ -15572,7 +15572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FPSController: {fileID: 939395671}
-  m_Duration: 1
+  m_Duration: 5
   m_Audio: {fileID: 1793430392}
   m_OnOverClip: {fileID: 8300000, guid: 2bd66143af0efeb4e884e4273d2ed956, type: 3}
   m_OnFilledClip: {fileID: 8300000, guid: 9f9d2c4dc4b50704bbf83a0e84e35936, type: 3}
@@ -16302,7 +16302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FPSController: {fileID: 939395671}
-  m_Duration: 5
+  m_Duration: 15
   m_Audio: {fileID: 1856533672}
   m_OnOverClip: {fileID: 8300000, guid: 2bd66143af0efeb4e884e4273d2ed956, type: 3}
   m_OnFilledClip: {fileID: 8300000, guid: 9f9d2c4dc4b50704bbf83a0e84e35936, type: 3}

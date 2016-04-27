@@ -5,6 +5,7 @@ namespace VRproj.FatStacks
 {
     public class FatStacks : MonoBehaviour
     {
+      
         Transform stack;
         public int test;
         public float fillrate;
@@ -13,13 +14,13 @@ namespace VRproj.FatStacks
         public float xo, x, oy, y, oz, z;
         public float moneylimit;
         public float pmoney;
-        public float CashConstant; //how much each block represent?
+        public float CashConstant; //how much does each block represent?
       
 
         // Use this for initialization
         void Start()
         {
-           
+            
                 xo = (pedestal.transform.position.x) - 2f;
                 x = xo;
                 oy = pedestal.transform.position.y;
@@ -47,20 +48,20 @@ namespace VRproj.FatStacks
            if (pmoney <= moneylimit)
             { 
             
-                if (x > xo + 4f)
+                if (x > xo + 2f)
                 {
                     x = xo;
-                    z += 0.5f;
+                    z += 0.1f;
                 }
-                if (z > oz + 4f)
+                if (z > oz + 2f)
                 {
                     z = oz;
                     x = xo;
-                    y += 0.5f;
+                    y += 0.1f;
                 }
                 Instantiate(stackz, new Vector3(x, y, z), Quaternion.identity);
                 pmoney += CashConstant;
-                x += 0.5f;
+                x += 0.1f;
             }
 
         }

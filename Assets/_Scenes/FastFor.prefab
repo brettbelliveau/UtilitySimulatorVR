@@ -99,7 +99,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100910}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.65793496, w: -0.75307477}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_Children: []
@@ -139,7 +139,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 165076}
-  m_LocalRotation: {x: 0.3535534, y: -0.3535534, z: 0.14644663, w: 0.85355335}
+  m_LocalRotation: {x: 0.055066973, y: 0.7721638, z: -0.62941796, w: 0.06755563}
   m_LocalPosition: {x: -0.00003306071, y: 7.83, z: 0.000024159743}
   m_LocalScale: {x: 0.6666667, y: 0.6666667, z: 0.6666667}
   m_Children: []
@@ -211,7 +211,7 @@ MonoBehaviour:
   stars: {fileID: 100910}
   sun: {fileID: 10828976}
   secondsInFullDay: 4
-  currentTimeOfDay: 0
+  currentTimeOfDay: 0.47325063
   timeMultiplier: 1
 --- !u!198 &19841114
 ParticleSystem:

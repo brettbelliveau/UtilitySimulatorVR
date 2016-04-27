@@ -35,6 +35,8 @@ namespace VRStandardAssets.Utils
         [SerializeField] private GameObject text;                           // Any text on the panel/slider
         [SerializeField] private SelectionSlider m_PairedSlider;
         [SerializeField] private AudioClip m_OnClickedClip;
+        [SerializeField] private GameObject[] m_PreItems;
+        [SerializeField] private GameObject[] m_PostItems;
 
         /* Fields used for money dispenser */
 
@@ -65,6 +67,9 @@ namespace VRStandardAssets.Utils
             walkSpeed = fps.m_WalkSpeed;
             runSpeed = fps.m_RunSpeed;
             hasRun = false;
+
+            for (var i = 0; i < m_PostItems.Length; i++)
+                m_PostItems[i].SetActive(false);
         }
 
 		private void OnEnable ()
@@ -199,8 +204,14 @@ namespace VRStandardAssets.Utils
             
             text.GetComponent<Text>().text = "\n Activity \n Complete";
 
-            //Set speeds back to normal
-            walkingScript.setCanWalk(true);
+            for (var i = 0; i < m_PreItems.Length; i++)
+                m_PreItems[i].SetActive(false);
+
+            for (var i = 0; i < m_PostItems.Length; i++)
+                m_PostItems[i].SetActive(true);
+
+                //Set speeds back to normal
+                walkingScript.setCanWalk(true);
             fps.m_WalkSpeed = walkSpeed;
             fps.m_RunSpeed = runSpeed;      
         }

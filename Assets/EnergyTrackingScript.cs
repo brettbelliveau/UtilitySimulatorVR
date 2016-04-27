@@ -2,11 +2,11 @@
 using System.Collections;
 
 public class EnergyTrackingScript : MonoBehaviour {
-    public double time;
-    public double kWh;
-    public double jouUsed; //joules of energy consumed;
-    public double bulbs = 0;   //how many bulbs are on
-    public double bulbconstant; //wattage rating of the installed bulbs
+    public float time;
+    public float kWh;
+    public float jouUsed; //joules of energy consumed;
+    public float bulbs = 0;   //how many bulbs are on
+    public float bulbconstant; //wattage rating of the installed bulbs
     public int tv = 0; //is the tv on?
     public int dryer = 0; //is the dryer on?
     public int washer = 0; //is the washer on?
@@ -16,6 +16,10 @@ public class EnergyTrackingScript : MonoBehaviour {
 	void Start () {
         InvokeRepeating("UpdateEnergy",0,1);
 	}
+    public void Stop()
+    {
+        CancelInvoke();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -30,9 +34,9 @@ public class EnergyTrackingScript : MonoBehaviour {
             jouUsed += 213 * tv; //wattage of a powered TV.
         }
     }
-    double kWhcalc()
+    public float kWhcalc()
     {
-        kWh = (jouUsed / time) * 3.6; //kWh calculation for the course of the simulation;
+        kWh = (jouUsed / 3600000); //kWh calculation for the course of the simulation;
         return kWh;
     }
 }

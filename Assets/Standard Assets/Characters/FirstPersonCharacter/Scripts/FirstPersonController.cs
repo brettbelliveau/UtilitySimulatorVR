@@ -35,7 +35,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private GameObject ClothingPanelOne;
         [SerializeField] private GameObject ClothingPanelTwo;
 
-
         private Camera m_Camera;
         private bool m_Jump;
         private float m_YRotation;
@@ -50,6 +49,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private bool m_Jumping;
         private AudioSource m_AudioSource;
         private int m_ClothingHeld;
+        private int firstRun;
 
         // Use this for initialization
         private void Start()
@@ -65,14 +65,22 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
             m_ClothingHeld = 0;
-            ClothingPanelOne.SetActive(false);
-            ClothingPanelTwo.SetActive(false);
+            firstRun = 0;
+            ClothingPanelOne.SetActive(true);
+            ClothingPanelTwo.SetActive(true);
         }
 
 
         // Update is called once per frame
         private void Update()
         {
+            if (firstRun == 0)
+            {
+                firstRun++;
+                ClothingPanelOne.SetActive(false);
+                ClothingPanelTwo.SetActive(false);
+            }
+
             RotateView();
             // the jump state needs to read here to make sure it is not missed
             if (!m_Jump)

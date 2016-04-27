@@ -3471,6 +3471,8 @@ MonoBehaviour:
   - {fileID: 1866309790}
   - {fileID: 1362707979}
   - {fileID: 769476523}
+  isDishes: 1
+  isLaundry: 0
   walkingScript: {fileID: 939395672}
   handWashed: 0
   hasRun: 0
@@ -3599,7 +3601,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 371428944}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3a7329031238264e830e72843be00fd, type: 3}
   m_Name: 
@@ -6196,7 +6198,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22431522, guid: 14230eefac4af0e4896c763b9e95b2d4, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11493848, guid: 14230eefac4af0e4896c763b9e95b2d4, type: 2}
       propertyPath: FPSController
@@ -9846,7 +9848,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 991686571}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3a7329031238264e830e72843be00fd, type: 3}
   m_Name: 
@@ -10002,6 +10004,8 @@ MonoBehaviour:
   - {fileID: 441945175}
   - {fileID: 2059828675}
   - {fileID: 1703308133}
+  isDishes: 1
+  isLaundry: 0
   walkingScript: {fileID: 939395672}
   handWashed: 0
   hasRun: 0
@@ -10461,6 +10465,8 @@ MonoBehaviour:
   m_OnClickedClip: {fileID: 0}
   m_PreItems: []
   m_PostItems: []
+  isDishes: 0
+  isLaundry: 0
   walkingScript: {fileID: 0}
   handWashed: 0
   hasRun: 0
@@ -10923,6 +10929,8 @@ MonoBehaviour:
   m_OnClickedClip: {fileID: 0}
   m_PreItems: []
   m_PostItems: []
+  isDishes: 0
+  isLaundry: 0
   walkingScript: {fileID: 0}
   handWashed: 0
   hasRun: 0
@@ -14402,6 +14410,8 @@ MonoBehaviour:
   m_OnClickedClip: {fileID: 0}
   m_PreItems: []
   m_PostItems: []
+  isDishes: 0
+  isLaundry: 0
   walkingScript: {fileID: 0}
   handWashed: 0
   hasRun: 0
@@ -18373,7 +18383,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1793430388}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3a7329031238264e830e72843be00fd, type: 3}
   m_Name: 
@@ -18539,6 +18549,8 @@ MonoBehaviour:
   - {fileID: 2114243846}
   - {fileID: 257459948}
   - {fileID: 1970529350}
+  isDishes: 0
+  isLaundry: 1
   walkingScript: {fileID: 939395672}
   handWashed: 0
   hasRun: 0
@@ -18985,6 +18997,8 @@ MonoBehaviour:
   m_OnClickedClip: {fileID: 0}
   m_PreItems: []
   m_PostItems: []
+  isDishes: 0
+  isLaundry: 0
   walkingScript: {fileID: 0}
   handWashed: 0
   hasRun: 0
@@ -19103,7 +19117,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1856533668}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3a7329031238264e830e72843be00fd, type: 3}
   m_Name: 
@@ -19269,6 +19283,8 @@ MonoBehaviour:
   - {fileID: 1432314355}
   - {fileID: 816163245}
   - {fileID: 573937840}
+  isDishes: 0
+  isLaundry: 1
   walkingScript: {fileID: 939395672}
   handWashed: 0
   hasRun: 0
@@ -19876,6 +19892,8 @@ MonoBehaviour:
   dryer: 0
   washer: 0
   run: 1
+  dishesSlider: {fileID: 371428945}
+  laundrySlider: {fileID: 1856533674}
 --- !u!23 &1924915681
 MeshRenderer:
   m_ObjectHideFlags: 0

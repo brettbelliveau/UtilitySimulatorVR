@@ -54,8 +54,6 @@ namespace VRStandardAssets.Utils
         private GameObject text;                           // Any text on the panel/slider
         [SerializeField]
         private SelectionSlider m_PairedSlider;
-        public bool laundrydone = false;
-        public bool dishesdone = false;
 
         [SerializeField] private Text timeText;
         [SerializeField] private Text moneyText;
@@ -264,10 +262,10 @@ namespace VRStandardAssets.Utils
         private void HandleDown()
         {
             // If the user is looking at the bar start the FillBar coroutine and store a reference to it.
-            if (m_GazeOver && !inProgress && laundrydone && dishesdone)
+            if (m_GazeOver && !inProgress && fps.ChoresDone())
             {
                 Starter.Stop();
-                simpad.moneylimit = ((Starter.kWhcalc() * DollarsPerKwh) / Starter.time) * 409968000f/2; //dollars spent over the time of th simulation * 13years in seconds.
+                simpad.moneylimit = ((Starter.kWhcalc() * DollarsPerKwh) / (2 * Starter.time)) * 409968000f; //dollars spent over the time of th simulation * 13years in seconds.
                 simpad.fillrate = (m_Duration/(simpad.moneylimit / simpad.CashConstant));
                 m_FillBarRoutine = StartCoroutine(FillBar());
                 Gas.totalkwh = (Starter.kWhcalc() / Starter.time) * 409968000f;

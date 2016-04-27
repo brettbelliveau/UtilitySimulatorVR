@@ -36,7 +36,7 @@ namespace VRproj.FatStacks
         }
         public void StartSim()
         {
-            InvokeRepeating("Place", 0, fillrate);
+            InvokeRepeating("Place", 0, fillrate*2);
 
         }
         public void StopSim()
@@ -46,18 +46,17 @@ namespace VRproj.FatStacks
         public void Place()
         {
            if (pmoney <= moneylimit)
-            { 
-            
+            {
                 if (x > xo + 2f)
                 {
                     x = xo;
-                    z += 0.1f;
+                    z += 0.08f;
                 }
                 if (z > oz + 2f)
                 {
                     z = oz;
                     x = xo;
-                    y += 0.1f;
+                    y += 0.08f;
                 }
                 Instantiate(stackz, new Vector3(x, y, z), Quaternion.identity);
                 pmoney += CashConstant;

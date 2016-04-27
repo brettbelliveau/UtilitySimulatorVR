@@ -91,6 +91,7 @@ namespace VRStandardAssets.Utils
             walkSpeed = fps.m_WalkSpeed;
             runSpeed = fps.m_RunSpeed;
             m_Duration = 30;
+            moneyText.text = "";
         }
 
         private void OnEnable()
@@ -170,7 +171,8 @@ namespace VRStandardAssets.Utils
                 fps.m_WalkSpeed = fps.m_RunSpeed = 0;
                 walkingScript.setCanWalk(false);
             }
-           
+
+            string costText = "Energy Cost: $";
 
             m_Audio.clip = m_OnFilledClip;
             m_Audio.Play();
@@ -189,6 +191,7 @@ namespace VRStandardAssets.Utils
             // Until the timer is greater than the fill time...
             while (m_Timer < fillTime)
             {
+                moneyText.text = costText + (int) simpad.pmoney;
                 // ... add to the timer the difference between frames.
                 m_Timer += Time.deltaTime;
 

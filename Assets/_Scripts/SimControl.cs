@@ -9,14 +9,16 @@ namespace VRStandardAssets.Utils
 {
     public class SimControl : MonoBehaviour
     {
+        public EnergyTrackingScript Starter;
         public DayNightController rotate;
         public FatStacks simpad;
+        public float DollarsPerKwh;
         public event Action OnBarFilled;                                    // This event is triggered when the bar finishes filling.
         [SerializeField]
         private GameObject FPSController;
 
-        [SerializeField]
-        private float m_Duration = 2f;                     // The length of time it takes for the bar to fill.
+        
+        public float m_Duration;                     // The length of time it takes for the bar to fill.
         [SerializeField]
         private AudioSource m_Audio;                       // Reference to the audio source that will play effects when the user looks at it and when it fills.
         [SerializeField]
@@ -235,8 +237,12 @@ namespace VRStandardAssets.Utils
             // If the user is looking at the bar start the FillBar coroutine and store a reference to it.
             if (m_GazeOver && !inProgress && laundrydone && dishesdone)
             {
+                Starter.Stop();
+                simpad.moneylimit = ((Starter.kWhcalc() * DollarsPerKwh) / Starter.time) * 409968000f; //dollars spent over the time of th simulation * 13years in seconds.
+                simpad.fillrate = (m_Duration/(simpad.moneylimit / simpad.CashConstant))*2.5f;
                 m_FillBarRoutine = StartCoroutine(FillBar());
                 Debug.Log("Starting");
+                
                 rotate.run = true;
                 simpad.StartSim();
                 if (m_PairedSlider != null)

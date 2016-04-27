@@ -23,7 +23,6 @@ public class DayNightController : MonoBehaviour
     {
         if (run)
         {
-            Debug.Log("running");
             UpdateSun();
 
             currentTimeOfDay += (Time.deltaTime / secondsInFullDay) * timeMultiplier;
@@ -57,5 +56,10 @@ public class DayNightController : MonoBehaviour
         }
 
         sun.intensity = sunInitialIntensity * intensityMultiplier;
+    }
+
+    public void StopStars()
+    {
+        stars.SetActive(false);
     }
 }

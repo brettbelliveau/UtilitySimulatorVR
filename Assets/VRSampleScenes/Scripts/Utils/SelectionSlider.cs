@@ -210,8 +210,8 @@ namespace VRStandardAssets.Utils
             for (var i = 0; i < m_PostItems.Length; i++)
                 m_PostItems[i].SetActive(true);
 
-                //Set speeds back to normal
-                walkingScript.setCanWalk(true);
+            //Set speeds back to normal
+            walkingScript.setCanWalk(true);
             fps.m_WalkSpeed = walkSpeed;
             fps.m_RunSpeed = runSpeed;      
         }

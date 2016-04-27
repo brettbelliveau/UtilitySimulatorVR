@@ -10,6 +10,8 @@ namespace VRStandardAssets.Utils
         public int objects; //how many objects does this switch control?
         public GameObject[] LightArr = new GameObject[10]; //the lights this switch controls in the scene;
         // Use this for initialization
+        [SerializeField] private Autowalk autoScript;
+        
         bool on = false;
         void Start()
         {
@@ -18,6 +20,7 @@ namespace VRStandardAssets.Utils
         private void OnEnable()
         {
             m_InteractiveItem.OnClick += HandleClick;
+            autoScript.clickedSomething = true;
         }
         private void HandleClick()
         {

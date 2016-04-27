@@ -57,6 +57,9 @@ namespace VRStandardAssets.Utils
         public bool laundrydone = false;
         public bool dishesdone = false;
 
+        [SerializeField] private Text timeText;
+        [SerializeField] private Text moneyText;
+
 
         /* Fields used for money dispenser */
 
@@ -87,6 +90,7 @@ namespace VRStandardAssets.Utils
             fps = FPSController.GetComponent<FirstPersonController>();
             walkSpeed = fps.m_WalkSpeed;
             runSpeed = fps.m_RunSpeed;
+            m_Duration = 30;
         }
 
         private void OnEnable()
@@ -164,6 +168,7 @@ namespace VRStandardAssets.Utils
             if (m_LockMovementOnClick)
             {
                 fps.m_WalkSpeed = fps.m_RunSpeed = 0;
+                walkingScript.setCanWalk(false);
             }
            
 
@@ -172,10 +177,14 @@ namespace VRStandardAssets.Utils
 
             // When the bar starts to fill, reset the timer.
             m_Timer = 0f;
-            var newText = "\n Activity \n Progress: ";
 
             // The amount of time it takes to fill is either the duration set in the inspector, or the duration of the radial.
             float fillTime = m_SelectionRadial != null ? m_SelectionRadial.SelectionDuration : m_Duration;
+
+            //Will force the autowalk to pause for the duration
+            walkingScript.waitTime = (int)m_Duration;
+
+            text.GetComponent<Text>().text = "\n Simulation \n In Progress";
 
             // Until the timer is greater than the fill time...
             while (m_Timer < fillTime)
@@ -183,7 +192,19 @@ namespace VRStandardAssets.Utils
                 // ... add to the timer the difference between frames.
                 m_Timer += Time.deltaTime;
 
-                text.GetComponent<Text>().text = newText + (int)((m_Timer / fillTime) * 100) + "%";
+                float year = fillTime / 13;
+                float month = year / 12;
+
+                int current_months = (int) (m_Timer / month);
+                int current_years = (int) (m_Timer / year);
+
+                if (current_years > 0) {
+                    timeText.text = "Time Elapsed \n" + current_years + " Years \n";
+                    if (current_months % 12 > 0)    
+                        timeText.text += current_months % 12 + " Months";
+                }
+                else
+                    timeText.text = "Time Elapsed \n" + current_months % 12 + " Months \n";
 
                 // Set the value of the slider or the UV based on the normalised time.
                 SetSliderValue(m_Timer / fillTime);
@@ -201,16 +222,20 @@ namespace VRStandardAssets.Utils
                 yield break;
             }
 
+            walkingScript.waitTime = 0;
             // Play the clip for when the bar is filled.
             m_Audio.clip = m_OnFilledClip;
             m_Audio.Play();
             //StopSimulation
             rotate.run = false;
-            text.GetComponent<Text>().text = "\n Activity \n Complete";
+            rotate.StopStars();
+            text.GetComponent<Text>().text = "\n Simulation \n Complete";
             simpad.StopSim();
+
             //Set speeds back to normal
+            walkingScript.setCanWalk(true);
             fps.m_WalkSpeed = walkSpeed;
-            fps.m_RunSpeed = runSpeed;
+            fps.m_RunSpeed = runSpeed; 
         }
 
 

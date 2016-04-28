@@ -56,7 +56,7 @@ namespace VRproj.FatStacks
                 {
                     z = oz;
                     x = xo;
-                    y += 0.08f;
+                    y += 0.16f;
                 }
                 Instantiate(stackz, new Vector3(x, y, z), Quaternion.identity);
                 pmoney += CashConstant;

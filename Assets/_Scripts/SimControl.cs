@@ -55,9 +55,13 @@ namespace VRStandardAssets.Utils
         [SerializeField]
         private SelectionSlider m_PairedSlider;
 
-        [SerializeField] private Text timeText;
+        [SerializeField]
+        private GameObject gas;
+        [SerializeField]
+        private Text timeText;
+        [SerializeField]
+        private Text gasText;
         [SerializeField] private Text moneyText;
-
 
         /* Fields used for money dispenser */
 
@@ -90,6 +94,8 @@ namespace VRStandardAssets.Utils
             runSpeed = fps.m_RunSpeed;
             m_Duration = 30;
             moneyText.text = "";
+            timeText.text = "";
+            gasText.text = "";
         }
 
         private void OnEnable()
@@ -233,6 +239,8 @@ namespace VRStandardAssets.Utils
             text.GetComponent<Text>().text = "\n Simulation \n Complete";
             simpad.StopSim();
 
+            TurnOnGas();
+
             //Set speeds back to normal
             walkingScript.setCanWalk(true);
             fps.m_WalkSpeed = walkSpeed;
@@ -262,14 +270,13 @@ namespace VRStandardAssets.Utils
         private void HandleDown()
         {
             // If the user is looking at the bar start the FillBar coroutine and store a reference to it.
-            if (m_GazeOver && !inProgress && fps.ChoresDone())
+            if (m_GazeOver && !inProgress /*&& fps.ChoresDone()*/)
             {
                 Starter.Stop();
                 simpad.moneylimit = ((Starter.kWhcalc() * DollarsPerKwh) / (2 * Starter.time)) * 409968000f; //dollars spent over the time of th simulation * 13years in seconds.
                 simpad.fillrate = (m_Duration/(simpad.moneylimit / simpad.CashConstant));
                 m_FillBarRoutine = StartCoroutine(FillBar());
                 Gas.totalkwh = (Starter.kWhcalc() / Starter.time) * 409968000f;
-                Debug.Log("Starting");
                 
                 rotate.run = true;
                 simpad.StartSim();
@@ -282,6 +289,23 @@ namespace VRStandardAssets.Utils
         private void HandleUp()
         { }
 
+        private void TurnOnGas()
+        {
+            int calculatedRate = 0;
+            calculatedRate = (int)(Starter.kWhcalc() * 100);
+
+            int gasWeight = (int) ((Starter.kWhcalc() / Starter.time) * 409968000f);
+            gasText.text = "C02 Emitted: " + gasWeight + " lb";
+
+            ParticleSystem system = gas.GetComponent<ParticleSystem>();
+            var emission = system.emission;
+            emission.enabled = true;
+        
+            var rate = emission.rate;
+            rate.constantMax = calculatedRate;
+            emission.rate = rate;
+            system.Play();
+        }
 
         private void HandleOver()
         {

@@ -18,8 +18,8 @@ public class EnergyTrackingScript : MonoBehaviour {
     [SerializeField]
     private SelectionSlider laundrySlider;
 
-    private float dishesCost = 10800;
-    private float laundryCost = 10800;
+    private float dishesCost = 10800*2;
+    private float laundryCost = 10800*2;
     private bool addedDishes;
     private bool addedLaundry;
             
@@ -53,7 +53,7 @@ public class EnergyTrackingScript : MonoBehaviour {
                 jouUsed += laundryCost;
             }
             time += 1; //timer from beginning of sim;
-            jouUsed += bulbs * bulbconstant;
+            jouUsed += bulbs * bulbconstant * 4;
             jouUsed += 213 * tv; //wattage of a powered TV.
         }
     }

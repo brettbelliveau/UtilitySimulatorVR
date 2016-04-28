@@ -37,6 +37,8 @@ namespace VRStandardAssets.Utils
         [SerializeField] private AudioClip m_OnClickedClip;
         [SerializeField] private GameObject[] m_PreItems;
         [SerializeField] private GameObject[] m_PostItems;
+        [SerializeField] private bool isDishes;
+        [SerializeField] private bool isLaundry;
 
         /* Fields used for money dispenser */
 
@@ -67,6 +69,7 @@ namespace VRStandardAssets.Utils
             walkSpeed = fps.m_WalkSpeed;
             runSpeed = fps.m_RunSpeed;
             hasRun = false;
+            handWashed = true;
 
             for (var i = 0; i < m_PostItems.Length; i++)
                 m_PostItems[i].SetActive(false);
@@ -141,6 +144,11 @@ namespace VRStandardAssets.Utils
                 handWashed = true;
             else
                 handWashed = false;
+
+            if (isLaundry)
+                fps.SetLaundryDoneTrue();
+            else if (isDishes)
+                fps.SetDishesDoneTrue();
 
             inProgress = true;
             // Disable the bar so user cannot repeatedly press it
@@ -283,6 +291,11 @@ namespace VRStandardAssets.Utils
                 walkingScript.setCanWalk(true);
 			}
 		}
+
+        public bool GetHandWashed()
+        {
+            return handWashed;
+        }
 
         /* Below functions were built for toggle functionality, left for reference */
         /*

@@ -50,6 +50,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private AudioSource m_AudioSource;
         private int m_ClothingHeld;
         private int firstRun;
+        private bool laundryDone;
+        private bool dishesDone;
 
         // Use this for initialization
         private void Start()
@@ -68,6 +70,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             firstRun = 0;
             ClothingPanelOne.SetActive(true);
             ClothingPanelTwo.SetActive(true);
+            dishesDone = false;
+            laundryDone = false;
         }
 
 
@@ -111,6 +115,20 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_NextStep = m_StepCycle + .5f;
         }
 
+        public bool ChoresDone()
+        {
+            return (laundryDone && dishesDone);
+        }
+
+        public void SetLaundryDoneTrue()
+        {
+            laundryDone = true;
+        }
+
+        public void SetDishesDoneTrue()
+        {
+            dishesDone = true;
+        }
 
         private void FixedUpdate()
         {

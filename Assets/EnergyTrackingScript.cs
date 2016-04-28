@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using VRStandardAssets.Utils;
 
 public class EnergyTrackingScript : MonoBehaviour {
     public float time;
@@ -11,11 +12,23 @@ public class EnergyTrackingScript : MonoBehaviour {
     public int dryer = 0; //is the dryer on?
     public int washer = 0; //is the washer on?
     public bool run; //is the simulation on or stopped?
-    
+
+    [SerializeField]
+    private SelectionSlider dishesSlider;
+    [SerializeField]
+    private SelectionSlider laundrySlider;
+
+    private float dishesCost = 10800;
+    private float laundryCost = 10800;
+    private bool addedDishes;
+    private bool addedLaundry;
+            
     // Use this for initialization
 	void Start () {
+        addedDishes = false;
+        addedLaundry = false;
         InvokeRepeating("UpdateEnergy",0,1);
-	}
+    }
     public void Stop()
     {
         CancelInvoke();
@@ -29,6 +42,16 @@ public class EnergyTrackingScript : MonoBehaviour {
     {
         if (run)
         {
+            if (!addedDishes && !dishesSlider.GetHandWashed())
+            {
+                addedDishes = true;
+                jouUsed += dishesCost;
+            }
+            if (!addedLaundry && !laundrySlider.GetHandWashed())
+            {
+                addedLaundry = true;
+                jouUsed += laundryCost;
+            }
             time += 1; //timer from beginning of sim;
             jouUsed += bulbs * bulbconstant;
             jouUsed += 213 * tv; //wattage of a powered TV.

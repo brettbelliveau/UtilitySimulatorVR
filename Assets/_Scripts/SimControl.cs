@@ -54,8 +54,6 @@ namespace VRStandardAssets.Utils
         private GameObject text;                           // Any text on the panel/slider
         [SerializeField]
         private SelectionSlider m_PairedSlider;
-        public bool laundrydone = false;
-        public bool dishesdone = false;
 
         [SerializeField] private Text timeText;
         [SerializeField] private Text moneyText;
@@ -91,6 +89,7 @@ namespace VRStandardAssets.Utils
             walkSpeed = fps.m_WalkSpeed;
             runSpeed = fps.m_RunSpeed;
             m_Duration = 30;
+            moneyText.text = "";
         }
 
         private void OnEnable()
@@ -170,7 +169,8 @@ namespace VRStandardAssets.Utils
                 fps.m_WalkSpeed = fps.m_RunSpeed = 0;
                 walkingScript.setCanWalk(false);
             }
-           
+
+            string costText = "Energy Cost: $";
 
             m_Audio.clip = m_OnFilledClip;
             m_Audio.Play();
@@ -189,6 +189,7 @@ namespace VRStandardAssets.Utils
             // Until the timer is greater than the fill time...
             while (m_Timer < fillTime)
             {
+                moneyText.text = costText + (int) simpad.pmoney;
                 // ... add to the timer the difference between frames.
                 m_Timer += Time.deltaTime;
 
@@ -261,10 +262,10 @@ namespace VRStandardAssets.Utils
         private void HandleDown()
         {
             // If the user is looking at the bar start the FillBar coroutine and store a reference to it.
-            if (m_GazeOver && !inProgress && laundrydone && dishesdone)
+            if (m_GazeOver && !inProgress && fps.ChoresDone())
             {
                 Starter.Stop();
-                simpad.moneylimit = ((Starter.kWhcalc() * DollarsPerKwh) / Starter.time) * 409968000f/2; //dollars spent over the time of th simulation * 13years in seconds.
+                simpad.moneylimit = ((Starter.kWhcalc() * DollarsPerKwh) / (2 * Starter.time)) * 409968000f; //dollars spent over the time of th simulation * 13years in seconds.
                 simpad.fillrate = (m_Duration/(simpad.moneylimit / simpad.CashConstant));
                 m_FillBarRoutine = StartCoroutine(FillBar());
                 Gas.totalkwh = (Starter.kWhcalc() / Starter.time) * 409968000f;

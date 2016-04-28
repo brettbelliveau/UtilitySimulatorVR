@@ -10,11 +10,9 @@ namespace VRStandardAssets.Utils
         [SerializeField] private SelectionRadial m_SelectionRadial;         // Optional reference to the SelectionRadial, if non-null the duration of the SelectionRadial will be used instead.
         [SerializeField] private Collider m_Collider;                       // Optional reference to the Collider used to detect the user's gaze, turned off when the UIFader is not visible.
         
-        
-        
         public EnergyTrackingScript other; //drag the main EnergyTracking script here;
         public int objects; //how many objects does this switch control?
-        public GameObject[] LightArr = new GameObject[10]; //the lights this switch controls in the scene;
+        [SerializeField] private GameObject[] LightArr; //the lights this switch controls in the scene;
         private bool m_GazeOver;                                            // Whether the user is currently looking at the bar.
 
         // Use this for initialization
@@ -23,7 +21,7 @@ namespace VRStandardAssets.Utils
         bool on = false;
         void Start()
         {
-
+            TurnOffLights();
         }
         
         private void OnEnable()
@@ -49,6 +47,12 @@ namespace VRStandardAssets.Utils
             if (m_GazeOver)
             {
                 SetLights();
+             
+                if (on)
+                    TurnOnLights();
+                else
+                    TurnOffLights();
+
                 autoScript.clickedSomething = true;
             }
             //turn on lights at a click;
@@ -75,6 +79,18 @@ namespace VRStandardAssets.Utils
             {
                 autoScript.setCanWalk(true);
             }
+        }
+
+        private void TurnOnLights()
+        {
+            for (var i = 0; i < LightArr.Length; i++)
+                LightArr[i].SetActive(true);
+        }
+
+        private void TurnOffLights()
+        {
+            for (var i = 0; i < LightArr.Length; i++)
+                LightArr[i].SetActive(false);
         }
 
         public void SetLights() //turn lights on (adding them to the wattage calculation.)

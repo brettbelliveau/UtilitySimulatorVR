@@ -270,7 +270,7 @@ namespace VRStandardAssets.Utils
         private void HandleDown()
         {
             // If the user is looking at the bar start the FillBar coroutine and store a reference to it.
-            if (m_GazeOver && !inProgress /*&& fps.ChoresDone()*/)
+            if (m_GazeOver && !inProgress && fps.ChoresDone())
             {
                 Starter.Stop();
                 simpad.moneylimit = ((Starter.kWhcalc() * DollarsPerKwh) / (2 * Starter.time)) * 409968000f; //dollars spent over the time of th simulation * 13years in seconds.

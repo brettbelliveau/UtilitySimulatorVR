@@ -150,63 +150,63 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10895048, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10835962, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10846834, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10861134, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10877466, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10895048, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10835962, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10846834, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10861134, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10877466, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10895048, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 10835962, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 10846834, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 10861134, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 10877466, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
@@ -337,8 +337,8 @@ Light:
   serializedVersion: 6
   m_Type: 2
   m_Color: {r: 1, g: 0.98073024, b: 0.7205882, a: 1}
-  m_Intensity: 0.3
-  m_Range: 5
+  m_Intensity: 0.5
+  m_Range: 6
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -356,7 +356,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_Lightmapping: 4
-  m_BounceIntensity: 0.1
+  m_BounceIntensity: 0.3
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
@@ -758,8 +758,8 @@ Light:
   serializedVersion: 6
   m_Type: 2
   m_Color: {r: 1, g: 0.98073024, b: 0.7205882, a: 1}
-  m_Intensity: 0.3
-  m_Range: 5
+  m_Intensity: 0.5
+  m_Range: 6
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -777,7 +777,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_Lightmapping: 4
-  m_BounceIntensity: 0.1
+  m_BounceIntensity: 0.3
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
@@ -1077,15 +1077,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3df712603c937674cada2d69292a0a12, type: 2}
@@ -3043,15 +3043,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3df712603c937674cada2d69292a0a12, type: 2}
@@ -3719,15 +3719,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10811488, guid: 44d10b302e9583440a0eda0c259c0cd5, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10811488, guid: 44d10b302e9583440a0eda0c259c0cd5, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10811488, guid: 44d10b302e9583440a0eda0c259c0cd5, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44d10b302e9583440a0eda0c259c0cd5, type: 2}
@@ -4089,15 +4089,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3df712603c937674cada2d69292a0a12, type: 2}
@@ -4747,7 +4747,7 @@ AudioSource:
   Loop: 0
   Mute: 0
   Spatialize: 0
-  Priority: 50
+  Priority: 25
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -5328,15 +5328,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3df712603c937674cada2d69292a0a12, type: 2}
@@ -6646,15 +6646,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3df712603c937674cada2d69292a0a12, type: 2}
@@ -7121,6 +7121,108 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1054562015}
   m_RootOrder: 9
+--- !u!1 &580740487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 580740488}
+  - 82: {fileID: 580740489}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &580740488
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 580740487}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 939395676}
+  m_RootOrder: 2
+--- !u!82 &580740489
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 580740487}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 78b9d9953667da648975149de6af4a72, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &583199318 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 07d9cddd34a2d4a41be7bd1599af75de, type: 3}
@@ -7369,7 +7471,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24395356, guid: d87b47ce31deb1f44bbe100832f18eb4,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: d915af0c3a42fca49843637d72016be1, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -7556,8 +7658,8 @@ Light:
   serializedVersion: 6
   m_Type: 2
   m_Color: {r: 1, g: 0.98073024, b: 0.7205882, a: 1}
-  m_Intensity: 0.3
-  m_Range: 5
+  m_Intensity: 0.5
+  m_Range: 6
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -7575,7 +7677,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_Lightmapping: 4
-  m_BounceIntensity: 0.1
+  m_BounceIntensity: 0.3
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
@@ -7844,6 +7946,10 @@ Prefab:
       propertyPath: gasText
       value: 
       objectReference: {fileID: 2029442328}
+    - target: {fileID: 2331738, guid: 14230eefac4af0e4896c763b9e95b2d4, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a210699d066c4cb4b2e7c6078d03371, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 14230eefac4af0e4896c763b9e95b2d4, type: 2}
   m_IsPrefabParent: 0
@@ -8000,15 +8106,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3df712603c937674cada2d69292a0a12, type: 2}
@@ -8596,8 +8702,8 @@ Light:
   serializedVersion: 6
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.3
-  m_Range: 5
+  m_Intensity: 0.5
+  m_Range: 6
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -8615,7 +8721,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_Lightmapping: 4
-  m_BounceIntensity: 0.1
+  m_BounceIntensity: 0.3
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
@@ -9586,11 +9692,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 131830, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_IsActive
@@ -9598,7 +9704,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3df712603c937674cada2d69292a0a12, type: 2}
@@ -10727,15 +10833,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3df712603c937674cada2d69292a0a12, type: 2}
@@ -12881,8 +12987,8 @@ Light:
   serializedVersion: 6
   m_Type: 2
   m_Color: {r: 1, g: 0.98073024, b: 0.7205882, a: 1}
-  m_Intensity: 0.3
-  m_Range: 5
+  m_Intensity: 0.5
+  m_Range: 6
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -12900,7 +13006,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_Lightmapping: 4
-  m_BounceIntensity: 0.1
+  m_BounceIntensity: 0.3
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
@@ -13007,7 +13113,7 @@ AudioSource:
   Loop: 0
   Mute: 0
   Spatialize: 0
-  Priority: 50
+  Priority: 25
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -13229,7 +13335,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_Name
@@ -14933,8 +15039,8 @@ Light:
   serializedVersion: 6
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.3
-  m_Range: 5
+  m_Intensity: 1
+  m_Range: 6
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -15046,8 +15152,8 @@ Light:
   serializedVersion: 6
   m_Type: 2
   m_Color: {r: 1, g: 0.98073024, b: 0.7205882, a: 1}
-  m_Intensity: 0.3
-  m_Range: 5
+  m_Intensity: 0.5
+  m_Range: 6
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -15065,7 +15171,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_Lightmapping: 4
-  m_BounceIntensity: 0.1
+  m_BounceIntensity: 0.3
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
@@ -16851,8 +16957,8 @@ Light:
   serializedVersion: 6
   m_Type: 2
   m_Color: {r: 1, g: 0.98073024, b: 0.7205882, a: 1}
-  m_Intensity: 0.3
-  m_Range: 5
+  m_Intensity: 0.5
+  m_Range: 6
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -16870,7 +16976,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_Lightmapping: 4
-  m_BounceIntensity: 0.1
+  m_BounceIntensity: 0.3
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
@@ -17262,63 +17368,63 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10895048, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10835962, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10846834, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10861134, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10877466, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10895048, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10835962, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10846834, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10861134, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10877466, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10895048, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 10835962, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 10846834, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 10861134, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 10877466, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
@@ -17762,8 +17868,8 @@ Light:
   serializedVersion: 6
   m_Type: 2
   m_Color: {r: 1, g: 0.98073024, b: 0.7205882, a: 1}
-  m_Intensity: 0.3
-  m_Range: 5
+  m_Intensity: 0.5
+  m_Range: 6
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -17781,7 +17887,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_Lightmapping: 4
-  m_BounceIntensity: 0.1
+  m_BounceIntensity: 0.3
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
@@ -18240,15 +18346,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10811488, guid: 44d10b302e9583440a0eda0c259c0cd5, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10811488, guid: 44d10b302e9583440a0eda0c259c0cd5, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10811488, guid: 44d10b302e9583440a0eda0c259c0cd5, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44d10b302e9583440a0eda0c259c0cd5, type: 2}
@@ -20008,63 +20114,63 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10895048, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10835962, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10846834, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10861134, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10877466, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10895048, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10835962, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10846834, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10861134, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10877466, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10895048, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 10835962, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 10846834, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 10861134, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 10877466, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3061d6c5023d1fd46a910c8d5b64458a, type: 2}
@@ -20370,15 +20476,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3df712603c937674cada2d69292a0a12, type: 2}
@@ -21180,15 +21286,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3df712603c937674cada2d69292a0a12, type: 2}
@@ -21472,15 +21578,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3df712603c937674cada2d69292a0a12, type: 2}
@@ -22447,8 +22553,8 @@ Light:
   serializedVersion: 6
   m_Type: 2
   m_Color: {r: 1, g: 0.98073024, b: 0.7205882, a: 1}
-  m_Intensity: 0.3
-  m_Range: 5
+  m_Intensity: 0.5
+  m_Range: 6
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -22466,7 +22572,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_Lightmapping: 4
-  m_BounceIntensity: 0.1
+  m_BounceIntensity: 0.3
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
@@ -22710,8 +22816,8 @@ Light:
   serializedVersion: 6
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.3
-  m_Range: 5
+  m_Intensity: 1
+  m_Range: 6
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -25475,7 +25581,7 @@ AudioSource:
   Loop: 0
   Mute: 0
   Spatialize: 0
-  Priority: 50
+  Priority: 25
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 466.81665
@@ -26068,8 +26174,8 @@ Light:
   serializedVersion: 6
   m_Type: 2
   m_Color: {r: 1, g: 0.98073024, b: 0.7205882, a: 1}
-  m_Intensity: 0.3
-  m_Range: 5
+  m_Intensity: 0.5
+  m_Range: 6
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -26087,7 +26193,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_Lightmapping: 4
-  m_BounceIntensity: 0.1
+  m_BounceIntensity: 0.3
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
@@ -26148,15 +26254,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10885604, guid: 4099f2712e8d842498a9e462c5a49791, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10885604, guid: 4099f2712e8d842498a9e462c5a49791, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10885604, guid: 4099f2712e8d842498a9e462c5a49791, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4099f2712e8d842498a9e462c5a49791, type: 2}
@@ -26485,15 +26591,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3df712603c937674cada2d69292a0a12, type: 2}
@@ -26551,15 +26657,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10811488, guid: 44d10b302e9583440a0eda0c259c0cd5, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10811488, guid: 44d10b302e9583440a0eda0c259c0cd5, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10811488, guid: 44d10b302e9583440a0eda0c259c0cd5, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44d10b302e9583440a0eda0c259c0cd5, type: 2}
@@ -26617,15 +26723,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10885604, guid: 4099f2712e8d842498a9e462c5a49791, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10885604, guid: 4099f2712e8d842498a9e462c5a49791, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10885604, guid: 4099f2712e8d842498a9e462c5a49791, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4099f2712e8d842498a9e462c5a49791, type: 2}
@@ -26729,7 +26835,7 @@ AudioSource:
   Loop: 0
   Mute: 0
   Spatialize: 0
-  Priority: 50
+  Priority: 25
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -27723,15 +27829,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3df712603c937674cada2d69292a0a12, type: 2}
@@ -28094,15 +28200,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10885604, guid: 4099f2712e8d842498a9e462c5a49791, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10885604, guid: 4099f2712e8d842498a9e462c5a49791, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10885604, guid: 4099f2712e8d842498a9e462c5a49791, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4099f2712e8d842498a9e462c5a49791, type: 2}
@@ -29473,8 +29579,8 @@ Light:
   serializedVersion: 6
   m_Type: 2
   m_Color: {r: 1, g: 0.98073024, b: 0.7205882, a: 1}
-  m_Intensity: 0.3
-  m_Range: 5
+  m_Intensity: 0.5
+  m_Range: 6
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -29492,7 +29598,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_Lightmapping: 4
-  m_BounceIntensity: 0.1
+  m_BounceIntensity: 0.3
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
@@ -29844,15 +29950,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10811488, guid: 44d10b302e9583440a0eda0c259c0cd5, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10811488, guid: 44d10b302e9583440a0eda0c259c0cd5, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10811488, guid: 44d10b302e9583440a0eda0c259c0cd5, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44d10b302e9583440a0eda0c259c0cd5, type: 2}
@@ -29914,15 +30020,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Intensity
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_BounceIntensity
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 10890200, guid: 3df712603c937674cada2d69292a0a12, type: 2}
       propertyPath: m_Range
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3df712603c937674cada2d69292a0a12, type: 2}
@@ -30211,8 +30317,8 @@ Light:
   serializedVersion: 6
   m_Type: 2
   m_Color: {r: 1, g: 0.98073024, b: 0.7205882, a: 1}
-  m_Intensity: 0.3
-  m_Range: 5
+  m_Intensity: 0.5
+  m_Range: 6
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -30230,7 +30336,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_Lightmapping: 4
-  m_BounceIntensity: 0.1
+  m_BounceIntensity: 0.3
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
